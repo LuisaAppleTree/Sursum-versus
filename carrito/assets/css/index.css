@@ -1,0 +1,35 @@
+
+body{
+    background-color: #f8e4fc;
+}
+
+nav{
+    background-color: #d8fcfc;
+}
+
+.dermaimg {
+    width: 5rem;
+    height: 3rem;
+    margin-left:3rem;
+}
+.dermaimg2 {
+    width: 9rem;
+    height: 4rem;
+    margin-right: 1rem;
+}
+
+.prodCo{
+    background-color: #ffc47c;
+}
+
+.h{
+    height: 80vh;
+    
+}
+
+.tamaño{
+    width: 100rem;
+    height: 15rem;
+}
+
+
