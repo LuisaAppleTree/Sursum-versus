@@ -1,0 +1,27 @@
+body{
+    background-color:#F1E4FF ;
+}
+footer{
+    background-color: #D6B1FF;
+    max-height: 70px;
+}
+
+.logoempresa{
+    width: 59px;
+    height:49px;
+    margin: 10px;
+}
+
+.iconosredes a{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    padding: 2px;
+    color: #F22BB2;
+    align-items: center;
+    transition: all 0.2s ease-in;
+    
+}
+.nombreempresa{
+    color:  #F22BB2 ;
+}
