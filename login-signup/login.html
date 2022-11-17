@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=}, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/login.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Iniciar Sesión</title>
+</head>
+<body>
+     <!-- Inico de la  barra superior -->
+     <ul class="nav nav-pills" class="navbar navbar-expand-lg" style="background-color: #e3f2fd;">
+        <li class="nav-item">
+            <a class="nav-link text-dark" aria-current="page" href="#">LOGO</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark" aria-current="page" href="#">Nosotros</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Servicios</a>
+            <ul class="dropdown-menu bg-info">
+                <li><a class="dropdown-item" href="#">Cosmetología</a></li>
+                <li><a class="dropdown-item" href="#">Masajes</a></li>
+                <li><a class="dropdown-item" href="#">Aparatología</a></li>
+            </ul>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark" href="#">Productos</a>
+        </li>
+    </ul>
+    <!-- Fin de la barra superior  -->
+    <!-- Inicia formulario -->
+
+    <form class="formulario">
+        <figure>
+            <img src="./img/deraspalogoarriba.png">
+        </figure>
+        <h1>Iniciar Sesión</h1>
+        <div> 
+            <label for="Email"></label>
+            <input class="campo" type="text" name="Email" id="Email" placeholder="Email" required>
+        </div>
+        
+        <div>
+            <label for="Contraseña"></label>
+            <input class="campo" type="text" name="Contraseña" id="Contraseña" placeholder="Contraseña" required>
+        </div>
+        <div>
+            <input type="submit" value="Crear cuenta" id="boton" class="crear-cuenta-btn">
+        </div>
+        <div>
+            <input type="submit" value="Iniciar sesión" id="boton" class="iniciar-sesion-btn">
+        </div>
+        <figure>
+            <img src="./img/dermaspanombre.png">
+        </figure>
+
+    </form>
+    <!-- Termina formulario -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
