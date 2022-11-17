@@ -11,25 +11,47 @@
 <body>
     <main>
         <!-- Inicio nav -->
-        <ul class="nav nav-pills">
-            <li class="nav-item">
-                <a class="nav-link text-dark" aria-current="page" href="./index.html">LOGO</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-dark" aria-current="page" href="#">Nosotros</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Servicios</a>
-                <ul class="dropdown-menu bg-info">
-                    <li><a class="dropdown-item" href="#">Cosmetología</a></li>
-                    <li><a class="dropdown-item" href="#">Masajes</a></li>
-                    <li><a class="dropdown-item" href="#">Aparatología</a></li>
+        <div class="container">
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a href="./index.html"><img src="./assets/img/deraspalogoarriba.png" alt="Logo Derma Spa" width="50" aria-current="page"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" aria-current="page" href="#">Nosotros</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Servicios</a>
+                    <ul class="dropdown-menu bg-info">
+                        <li><a class="dropdown-item" href="#">Cosmetología</a></li>
+                        <li><a class="dropdown-item" href="#">Masajes</a></li>
+                        <li><a class="dropdown-item" href="./servicios2.html">Aparatología</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">Productos</a>
+                </li>
+                
+                <!-- BOTONES NAV alineados -->
+                <ul class="d-flex justify-content-end nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="sesion" aria-current="page" href="#">Iniciar sesión</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" id="registro" aria-current="page" href="#">Registrarse</a>
+                    </li>
                 </ul>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-dark" href="#">Productos</a>
-            </li>
-        </ul>
+            </ul>
+
+            <!-- BOTONES NAV al final-->
+            <ul class="d-flex justify-content-end nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link active" id="sesion" aria-current="page" href="#">Iniciar sesión</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" id="registro" aria-current="page" href="#">Registrarse</a>
+                </li>
+            </ul>
+        </div>
         <!-- Fin nav -->
 
         <div class="container">
@@ -38,13 +60,13 @@
             <!-- Inicio TARJETAS -->
             <div class="row row-cols-1 row-cols-md-2 g-4">
                 <div class="col">
-                    <div class="card h-100">
+                    <a class="card h-100" href="#">
                     <img src="..." class="card-img-top" alt="Cosmetología">
                     <div class="card-body">
                         <h5 class="card-title">Cosmetología</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus magnam minima optio maxime nihil eum perferendis, praesentium ea veritatis aut!</p>
                     </div>
-                    </div>
+                    </a>
                 </div>
                 <div class="col">
                     <div class="card h-100">
@@ -56,13 +78,13 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100">
-                    <img src="..." class="card-img-top" alt="Aparatología">
+                    <a class="card h-100" href="./servicios2.html">
+                    <img src="./assets/img/PHOTO-2022-11-14-19-57-40.jpg" class="card-img-top" alt="Aparatología">
                     <div class="card-body">
                         <h5 class="card-title">Aparatología</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus magnam minima optio maxime nihil eum perferendis, praesentium ea veritatis aut!</p>
                     </div>
-                    </div>
+                    </a>
                 </div>
             </div>
             <!-- Fin TARJETAS -->
@@ -70,7 +92,19 @@
 
     </main>
 
+<!-- FOOTER -->
+<footer>
+    <form>
+        Suscríbete para recibir ofertas<br> <input type="mail" name="Correo" value="">
+    </form>
+    <button>Enviar</button> <br>
+    <input type="checkbox">Doy consentimiento...
+    <nav>
+        <p>Contáctenos</p> <!--Link a formulario de comentarios -->
+        <p>Mapa de sitio</p> <!-- Opcional-->        
+    </nav>
 
+</footer>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
