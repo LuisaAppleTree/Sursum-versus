@@ -1,3 +1,4 @@
+/* Inicio Estilos barra de navegacion */
 .fondo {
     background-color: #D5FAFC;
 }
@@ -33,3 +34,4 @@ a.dropdown-item:hover {
     font-size: 20px;
     color: blueviolet;
 }
+/* Fin  estilos barra de navegacion */
