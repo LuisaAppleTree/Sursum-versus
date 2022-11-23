@@ -73,8 +73,9 @@ a.dropdown-item:hover {
 
 /* Inicio estilos footer */
 .footer{
-    background-color: #D5FAFC;
-    max-height: 70px;
+    background-color: #D6B1FF;
+    max-height: 4.375rem;
+    max-width: 100%;
 }
 
 .logoempresa{
