@@ -1,17 +1,14 @@
-body{
-    background-color:#F1E4FF ;
-}
-footer{
-    background-color: #D6B1FF;
-    max-height: 70px;
-}
-
-.logoempresa{
-    width: 59px;
-    height:49px;
-    margin: 10px;
+/* Inicia footer */
+.footer{
+    background-color:#FDD9D9;
+    margin-top: auto;
+    max-height: 4.375rem;
+    width: 100%;
 }
 
+.nombreempresa{
+    color:  #F22BB2 ;
+}
 .iconosredes a{
     width: 30px;
     height: 30px;
@@ -20,8 +17,12 @@ footer{
     color: #F22BB2;
     align-items: center;
     transition: all 0.2s ease-in;
+    text-decoration: none;
+}
+.logoempresa{
     
+    width: 59px;
+    height:49px;
+    margin: 10px;
 }
-.nombreempresa{
-    color:  #F22BB2 ;
-}
+/* Termina footer */
