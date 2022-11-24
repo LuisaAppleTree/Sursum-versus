@@ -30,17 +30,53 @@ h3{
     font-weight: 300;
     font-size: 1em;
 }
-/* Inicio Estilos barra de navegacion */
+
 .fondo {
+    background-color: #D5FAFC;
+}
+
+.navbar-nav > li > .dropdown-menu {
+    background-color: #D6B1FF;
+}
+
+.dropdown-item:hover {
+    background-color: blueviolet;
+    color: white;
+} 
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28140, 0, 211, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-light .navbar-toggler {
+    border: none;
+}
+
+#b1 {
+    background-color: #D6B1FF;
+    color: blueviolet;
+}
+
+#b2 {
+    background-color: blueviolet;
+    color: white;
+}
+
+.bi-cart2 {
+    font-size: 20px;
+    color: blueviolet;
+}
+/* Inicio Estilos barra de navegacion */
+/* .fondo {
     /* background-color: #D5FAFC; */
    /*  background-color: #FFC3D8; */
-   background-color: #2EC5CE;
+/*    background-color: #D5FAFC;
 }
 .textobarra{
     font-family: 'Roboto', sans-serif;
     font-size: 1.2em;
     font-weight: 300;
-    color: white;
+    color: black;
 
 }
 .navbar-nav > li > .dropdown-menu {
@@ -73,7 +109,7 @@ a.dropdown-item:hover {
 .bi-cart2 {
     font-size: 20px;
     color: blueviolet;
-}
+}  */
 /* Fin  estilos barra de navegacion */
 
 /* inicia section */
@@ -128,7 +164,7 @@ a.dropdown-item:hover {
     box-shadow: rgba(0, 0, 0, 0.45) 0px 30px 20px -20px;
 }
 .opacidad{
-    opacity: .7;
+    opacity: .8;
 }
 .medida{
     width: 80%;
@@ -234,7 +270,7 @@ a.dropdown-item:hover {
 /* footer */
 .footer{
     /* background-color: #D6B1FF; */
-    background-color:#FDD9D9 ;
+    background-color:#D6B1FF ;
     margin-top: auto;
     max-height: 4.375rem;
     width: 100%;
@@ -242,14 +278,14 @@ a.dropdown-item:hover {
 
 .nombreempresa{
     
-    color:  #F22BB2 ;
+    color:  #8C30F5 ;
 }
 .iconosredes a{
     width: 30px;
     height: 30px;
     margin: 10px;
     padding: 2px;
-    color: #F22BB2;
+    color: #8C30F5;
     align-items: center;
     transition: all 0.2s ease-in;
     
