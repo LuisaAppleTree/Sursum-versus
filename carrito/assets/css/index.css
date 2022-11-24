@@ -1,11 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
 
+}
 body{
-    /* background-color: #f8e4fc; */
-    background-image: url(/assets/img/fondo.png);
+    background-color:#F1E4FF ;
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image:url(../img/fondo\ pagina\ web.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    backdrop-filter: blur(1rem);
+    max-width: 100%;
 
+
+}
+
+.o{
+    color: #7021ca;
 }
 
 /* Inicio Estilos barra de navegacion */
@@ -48,71 +59,66 @@ a.dropdown-item:hover {
 
 /* INICIO DE CUADRO  */
 /* background-color: #ffc47c; */
-.prodCo{
-    background-image: radial-gradient(circle at 37.48% 28.32%, #73eae2 0, #67ddef 50%, #58a5c8 100%);
+.margen{
+   margin-top: 8vh;
+   margin-bottom: 7vh;
 
 }
 
-.h{
-    height: 80vh;
+.seccion1{
+    background-color: #eeea7dca;
+    margin-top: 4vh;
+    margin-bottom: 1vh;
     
 }
 
-.tamaño{
-    width:100%;
-  height:100%;
+.margintop{
+    margin-top: 1rem;
+}
+.pading{
+    padding: 1rem;
+    
 }
 .altura{
-   height: 70vh;
-   width: 50vw;
+    height: 36rem;
+}
+.S{
+    height: 100%;
 }
 .altura:hover{
-    background-color: #f9c27e;
-    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;}
-
-.ciick:hover{
-   
-    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    box-shadow: rgba(31, 1, 75, 0.25) 0px 54px 55px, rgba(27, 3, 74, 0.245) 0px -12px 30px, rgba(169, 26, 26, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.93) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+border-radius: 10%;
 }
-
-@media (max-width: 475px){
-.h{
-    height: 80vh;
-    justify-content: center;
-    
-    
-}
-.ciick{
-    height: 100%;
-    align-items: center;
-    
-    padding: 5px;
+.tamal{
+    height: 18rem;
     
 }
 
 
-.tamaño{
-   height:  20vh;
+.tamalito{
+    width: 10rem;
+    height: 2rem;
+    display: inline;
 }
+
+.colorTitul{
+    color: #7021ca;
 }
 
 /* FIN DE CUADRO */
 
-/* INICIO DE FOOTER  */
-
-footer{
-    background-color: #D6B1FF;
-    height: 7.7vh;
-    margin-top: 2.5rem;
-
+/* footer */
+.footer{
+    /* background-color: #D6B1FF; */
+    background-color:#FDD9D9 ;
+    margin-top: auto;
+    max-height: 4.375rem;
+    width: 100%;
 }
 
-.logoempresa{
-    width: 59px;
-    height:49px;
-    margin: 10px;
+.nombreempresa{
+    color:  #F22BB2 ;
 }
-
 .iconosredes a{
     width: 30px;
     height: 30px;
@@ -123,6 +129,10 @@ footer{
     transition: all 0.2s ease-in;
     
 }
-.nombreempresa{
-    color:  #F22BB2 ;
+.logoempresa{
+    
+    width: 59px;
+    height:49px;
+    margin: 10px;
 }
+/* termina footer */
