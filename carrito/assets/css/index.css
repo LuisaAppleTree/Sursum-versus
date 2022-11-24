@@ -68,12 +68,13 @@ a.dropdown-item:hover {
 .seccion1{
     background-color: #eeea7dca;
     margin-top: 4vh;
-    margin-bottom: 1vh;
+    margin-bottom: 4vh;
     
 }
 
 .margintop{
     margin-top: 1rem;
+    
 }
 .pading{
     padding: 1rem;
@@ -92,6 +93,10 @@ border-radius: 10%;
 .tamal{
     height: 18rem;
     
+}
+.tamal:hover{
+    box-shadow: rgba(31, 1, 75, 0.25) 0px 54px 55px, rgba(27, 3, 74, 0.245) 0px -12px 30px, rgba(169, 26, 26, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.93) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10%;
 }
 
 
