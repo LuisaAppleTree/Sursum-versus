@@ -36,22 +36,17 @@ a.dropdown-item:hover {
 }
 /* Fin  estilos barra de navegacion */
 
-
-/* Inicio estilos footer */
-body{
-    background-color:#F1E4FF ;
-}
-footer{
-    background-color: #D6B1FF;
-    max-height: 70px;
+/* Inicia footer */
+.footer{
+    background-color:#FDD9D9;
+    margin-top: auto;
+    max-height: 4.375rem;
+    width: 100%;
 }
 
-.logoempresa{
-    width: 59px;
-    height:49px;
-    margin: 10px;
+.nombreempresa{
+    color:  #F22BB2 ;
 }
-
 .iconosredes a{
     width: 30px;
     height: 30px;
@@ -61,10 +56,11 @@ footer{
     align-items: center;
     transition: all 0.2s ease-in;
     text-decoration: none;
+}
+.logoempresa{
     
+    width: 59px;
+    height:49px;
+    margin: 10px;
 }
-.nombreempresa{
-    color:  #F22BB2 ;
-}
-
-/* Fin estilos footer */
+/* Termina footer */
