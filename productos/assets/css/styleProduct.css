@@ -119,8 +119,11 @@ margin-bottom: 5vh;
     
 }
 .altura{
-    
-    width: 20rem;
+    margin: 0;
+    margin-top: 2rem;
+    margin-left: 0;
+    margin-right: 0;
+     margin-bottom: -15rem;
 }
 
 
@@ -129,7 +132,7 @@ margin-bottom: 5vh;
 /* footer */
 .footer{
     /* background-color: #D6B1FF; */
-    background-color:#FDD9D9 ;
+    background-color:#D6B1FF ;
     margin-top: auto;
     max-height: 4.375rem;
     width: 100%;
@@ -137,14 +140,14 @@ margin-bottom: 5vh;
 }
 
 .nombreempresa{
-    color:  #F22BB2 ;
+    color:  #8c30F5; ;
 }
 .iconosredes a{
     width: 1.5rem;
     height: 1.5;
     margin: 0.10rem;
     padding: 0.50rem;
-    color: #F22BB2;
+    color: #8c30F5;
     align-items: center;
     transition: all 0.2s ease-in;
     
