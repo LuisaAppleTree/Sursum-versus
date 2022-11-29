@@ -1,0 +1,39 @@
+.nav-pills {
+    background-color: #ccffff;
+}
+#sesion {
+    background-color: #f2e6ff;
+    color:  #9933ff;
+}
+#registro {
+    background-color:  #9933ff;
+    color: #f2e6ff;
+}
+.formulario {
+    background-color: rgb(255, 177, 230);
+    color: rgb(140, 48, 255);
+    width:20vh;
+    height:20vh;
+    border:0px;
+    margin:25rem;
+    margin-top:3rem;
+    margin-bottom: 0rem;
+    padding:10rem;
+    padding-bottom: 20rem;
+    padding-right: 20rem;
+    border-radius: 15px;
+}
+
+.crear-cuenta-btn {
+    background-color:rgb(197,113,237);
+    color:white;
+    border-radius: 5px;
+    border-width: 0px;
+}
+
+.iniciar-sesion-btn {
+    background-color:rgb(140,48,255);
+    color:white;
+    border-radius: 5px;
+    border-width: 0px;
+}
