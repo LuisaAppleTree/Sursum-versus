@@ -1,0 +1,31 @@
+.nav-pills {
+    background-color: #ccffff;
+}
+
+#menu {
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+#sesion {
+    background-color: #f2e6ff;
+    color:  #9933ff;
+}
+
+#registro {
+    background-color:  #9933ff;
+    color: #f2e6ff;
+}
+
+body {
+    background-color: #e6ccff;
+}
+
+footer {
+    background-color: orangered;
+}
+
+#aparato {
+    background-color: violet;
+}
