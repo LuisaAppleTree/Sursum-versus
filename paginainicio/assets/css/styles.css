@@ -4,6 +4,7 @@
 body{
     background-color:#F1E4FF ;
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
 /* Fin configuracion de toda la página */
 
@@ -45,39 +46,53 @@ a.dropdown-item:hover {
 }
 /* Fin  estilos barra de navegacion */
 
-/* Inicio estilos de titulo NOSOTROS */
+/* Inicio estilos de container DERMA TEAM */
 .pink {
     background-color: #ff72d2;
 }
 
 .dt-txt {
     font-weight: 800;
-    font-size: 2rem;
+    font-size: 4vw;
     color: #FFFFFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     
 }
-/* Fin estilos titulo NOSOTROS */
+/* Fin estilos container DERMA TEAM */
 
-/* Inicio estilos contenido*/
-.txt1 {
-    font-weight: 500;
-    font-size: 1rem;
-    color: blueviolet;
+/* Inicio estilos imagenes cosmetologas*/
+.wow {
+    background-color: #F22BB2;
 }
 
-.txt2 {
-    font-weight: 500;
-    font-size: 1rem;
-    color: #FFFFFF;
+.s {
+    width: 25vw;
+    height: auto;
 }
-/* Fin estilos contenidos */
+
+.d {
+   font-weight: 600;
+   font-size: 3vw;
+   color: #FFFFFF;
+   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.turquesa {
+    background-color: #2EC5CE;
+    width: 500px;
+}
+
+.rosa {
+    background-color: #FFB1E6;
+    width: 500px;
+}
+
+/* Fin estilos imagenes cosmetologas */
 
 /* Inicio estilos footer */
-.footer{
+footer{
     background-color: #D6B1FF;
-    max-height: 4.375rem;
-    max-width: 100%;
+    max-height: 70px;
 }
 
 .logoempresa{
@@ -94,7 +109,8 @@ a.dropdown-item:hover {
     color: #F22BB2;
     align-items: center;
     transition: all 0.2s ease-in;
-    text-decoration: none;  
+    text-decoration: none;
+    
 }
 .nombreempresa{
     color:  #F22BB2 ;
