@@ -60,40 +60,38 @@ a.dropdown-item:hover {
 
 .dt-txt {
     font-weight: 800;
-    font-size: 4vw;
+    font-size: 2rem;
     color: #FFFFFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    
 }
 /* Fin estilos container DERMA TEAM */
 
 /* Inicio estilos imagenes cosmetologas*/
-.wow {
-    background-color: #F22BB2;
+.barrablue {
+    background-color: #2EC5CE; font-size: 1.6rem; color: #FFFFFF; font-weight: 900;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); height: 6.5vh
 }
 
-.s {
-    width: 25vw;
-    height: auto;
+.barrapink {
+    background-color: #FFB1E6; font-size: 1.4rem; color: #FFFFFF; font-weight: 900;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); height: 6.5vh;
 }
 
-.d {
-   font-weight: 600;
-   font-size: 3vw;
-   color: #FFFFFF;
-   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+.dalilam {
+    filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.25));  
 }
 
-.turquesa {
-    background-color: #2EC5CE;
-    width: 500px;
+.dalila {
+    filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.25)); height: 350px; width: 300px;
 }
 
-.rosa {
-    background-color: #FFB1E6;
-    width: 500px;
+.palomam {
+    filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.25));
 }
 
+.paloma {
+    filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.25)); height: 300px; width: 285px;
+}
 /* Fin estilos imagenes cosmetologas */
 
 /* Inicio estilos footer */
