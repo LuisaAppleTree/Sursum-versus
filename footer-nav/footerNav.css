@@ -1,0 +1,76 @@
+/* Inicio Estilos barra de navegacion */
+.fondo {
+    background-color: #D5FAFC;
+}
+
+.navbar-nav > li > .dropdown-menu {
+    background-color: #D6B1FF;
+}
+
+a.dropdown-item:hover {
+    background-color: blueviolet;
+    color: white;
+} 
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28140, 0, 211, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-light .navbar-toggler {
+    border: none;
+}
+
+#b1 {
+    background-color: #D6B1FF;
+    color: blueviolet;
+}
+
+#b2 {
+    background-color: blueviolet;
+    color: white;
+}
+
+.bi-cart2 {
+    font-size: 20px;
+    color: blueviolet;
+}
+/* Fin  estilos barra de navegacion */
+
+/* Inicia footer */
+.footer{
+    background-color:#D6B1FF;
+    margin-top: auto;
+    max-height: 4.375rem;
+    width: 100%;
+}
+
+.nombreempresa{
+    color:  #F22BB2 ;
+}
+.iconosredes a{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    padding: 2px;
+    color: #F22BB2;
+    align-items: center;
+    transition: all 0.2s ease-in;
+    text-decoration: none;
+}
+.logoempresa{
+    
+    width: 59px;
+    height:49px;
+    margin: 10px;
+}
+/* Termina footer */
+
+/* botones de inicio y registro */
+.aInicio{
+    color: blueviolet;
+    text-decoration: none;
+}
+.aRegistro{
+    color: white;
+    text-decoration: none;
+}

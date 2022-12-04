@@ -1,3 +1,9 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
 .nav-pills {
     background-color: #ccffff;
 }
@@ -20,6 +26,8 @@
 
 body {
     background-color: #e6ccff;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
 }
 
 footer {
@@ -28,4 +36,16 @@ footer {
 
 #aparato {
     background-color: violet;
+}
+/* barra de enmedio */
+.pink {
+    background-color: #ff72d2;
+}
+
+.dt-txt {
+    font-weight: 800;
+    font-size: 2rem;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
 }
