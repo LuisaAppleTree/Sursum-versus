@@ -69,25 +69,33 @@
                 
             </div>
            
-            <div class="col align-items-center col-sm-8 col-md-8 col-lg-4 shadow p-3 mb-5 rounded-5 contenedor"> 
+            <div class="col align-items-center col-sm-8 col-md-8 col-lg-4 shadow p-3 mb-5 rounded-5 contenedor "> 
                 <!-- Columna 2 con contenido -->
                 
-                <form> 
+                <form action="" class="formulario" id="formulario"> 
                     <div >
                         <img class="Logo" src="./assets/img/deraspalogoarriba-copia.png" alt="LogoEncabezado">
                     </div>
                     
-                    <div class="Email">
-                        <label for="exampleInputEmail1" ></label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email ">
+                    <div class="Email formulario__grupo formulario_grupo-correcto" id="email">
+                        <label for="email" class="Formulario__label"></label>
+                        <div class="formulario__grupo-input">
+                          <input type="email" class="formulario__input" name="email"  id="email" aria-describedby="emailHelp" placeholder="Email ">
+                          <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
+                          </div>
+                          <p class="formulario__input-error"> e-mail no encotrado</p>
                         </div>
-                      <div class="contraseña">
-                        <label for="exampleInputPassword1"class="align-items-center" ></label>
-                        <input type="password" class="form-control contraseñaLetra" id="exampleInputPassword1" placeholder="Contraseña">
+                      <div class="contraseña formulario__grupo formulario_grupo-correcto" id="password">
+                        <label for="password"class=" formulario__label " ></label>
+                        <div class="formulario__grupo-input">
+                          <input type="password" class="formulario__input" name="password" id="password" placeholder="Contraseña">
+                          <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
+                        </div>
+                        <p class="formulario__input-error">La contraseña no coincide</p>
                       </div>
                       
                 <div class="d-grid gap-2 d-md-flex sm-flex justify-content-md-center botones">
-                    <button class="btn btn-primary col-sm-12 col-md-6 col-lg-6 boton1" type="button">Iniciar sesión</button>
+                    <button class="btn btn-primary col-sm-12 col-md-6 col-lg-6 boton1" type="submit">Iniciar sesión</button>
                     <button class="btn btn-primary col-sm-12 col-md-6 col-lg-6 boton2" type="button"><a class="aRegistro" href="/crear-cuenta/signup.html">Registrarse</a></button> 
                     
                   </div>
@@ -143,7 +151,8 @@
 <!-- termina footer -->
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-     
+  <script src="https://kit.fontawesome.com/ed44661372.js"crossorigin="anonymous"></script>
+     <script src="assets/iniciarSesion.js"></script>
  
 </body>
 </html>
