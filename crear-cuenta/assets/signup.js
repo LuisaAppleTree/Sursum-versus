@@ -9,7 +9,7 @@ const expresiones = {
 	password: /^.{4,12}$/, // 4 a 12 digitos.
 	correo: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
 	telefono: /^\d{7,14}$/, // 7 a 14 numeros.
-    domicilio: /^[a-zA-Z0-9-ZÀ-ÿ\s \#\-]{1,40}$/ //letras, numeros y caracteres cómo gato, guion.
+    domicilio:  /^[a-zA-Z1-9À-ÖØ-öø-ÿ]+\.?(( |\-)[a-zA-Z1-9À-ÖØ-öø-ÿ]+\.?)* (((#|[nN][oO]\.?) ?)?\d{1,4}(( ?[a-zA-Z0-9\-]+)+)?)$/ //letras, numeros y caracteres cómo gato, guion.
 }
 
 const campos = {
