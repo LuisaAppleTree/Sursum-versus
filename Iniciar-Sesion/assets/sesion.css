@@ -91,31 +91,31 @@ a.dropdown-item:hover {
 
 }
 .boton1{
-    font-weight: 300em;
+    font-weight: 300;
     color: white;
     border:none;
-
     border-radius: 5px;
     height: 40px;
-    background-color: rgb(140, 48,245);
+    background-color: rgb(140, 48,255);
     
 } 
 .boton1:hover{
-    background-color: yellow;
+    background-color:rgb(197, 113, 237);
+    box-shadow: 3px 0px 30px rgb(224, 155, 207);
 }
 
 .boton2{
-    font-weight: 300em;
+    font-weight: 300;
     color: white;
     border:none;
-    
     border-radius: 5px;
     height: 40px;
     background-color: rgb(197,113, 237);
 
 }
 .boton2:hover{
-    background-color: yellow;
+    background-color: rgb(140, 48,255);
+    box-shadow: 3px 0px 30px rgb(224, 155, 207);
 }
 .contenedor{
     margin-top: 9vh;
