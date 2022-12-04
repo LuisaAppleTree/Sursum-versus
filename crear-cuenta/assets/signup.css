@@ -43,7 +43,6 @@
 }
 /* Fin  estilos barra de navegacion */
 
-
 .body {
     background-color:#F1E4FF ;
     background-image:url(../img/fondo\ pagina\ web.jpg);
@@ -62,34 +61,46 @@
 }
 
 
-
 .imagen-contenedor {
     margin-top:1rem;
     margin-bottom: 1rem;
 }
 
 
-.leyenda-formulario {
-    color: rgb(140, 48, 255);
-    width: 100%;
-    margin-top:1rem;
-    margin-bottom: 1rem;
-}
-
-.contenedor{
+.formulario{
     background-color: rgb(255, 177, 230); 
     color: rgb(140, 48, 255);
-    margin-top:1rem;
-    margin-bottom: 1rem;
     border-radius: 15px;
-    height:35rem;
 }
 
-.mensaje-footer-caja{
-    font-size: small;
+
+.formulario__grupo-input {
+    position:relative;
 }
 
-.crear-cuenta-btn {
+
+.formulario__input {
+    width:100%;
+    background-color:#fff;
+    border: 3px solid transparent;
+    border-radius: 3px;
+    height:45px;
+    line-height: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    transition: .3s ease all;
+    margin-top: -2rem;
+    margin-bottom: -2rem;
+}
+
+.formulario__input:focus {
+    border: 3px solid rgb(140, 48, 255);
+    outline: none;
+    box-shadow: 3px 0px 30px
+rgb(255, 119, 221)
+}
+
+.formulario__btn {
     background-color:rgb(140,48,255);
     font-weight: 300;
     color:white;
@@ -100,28 +111,92 @@
     height:30px;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    cursor:pointer;
+    transition: .1s ease all;
 }
 
-.crear-cuenta-btn:hover {
+.formulario__btn:hover {
     background-color:rgb(197, 113, 237);
+    box-shadow: 3px 0px 30px rgb(224, 155, 207);
 }
 
-.formularios {
-    border-radius: 4px;
-    height: 15px;
-    width:100%;
-
+.formulario__grupo-btn-enviar {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.texto-iniciar-sesion {
+.mensaje-footer-caja{
+    font-size: small;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
-.shadow {
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 
+.formulario__input-error {
+    font-size:12px;
+    display:none;
 }
+
+.formulario__input-error-activo {
+    font-size:12px;
+    margin-top: 200px;
+    display:block;
+}
+
+.formulario__validacion-estado {
+    position: absolute;
+    right: 10px;
+    top:5px;
+    z-index:100;
+    font-size:16px;
+    opacity:0;
+}
+
+.formulario__mensaje {
+    background-color: #3f0681;
+    color:white;
+    line-height: 25px;
+    padding: 0 15px;
+    border-radius: 5px;
+    display:none;
+}
+
+.formulario__mensaje-activo {
+    display:block;
+}
+
+.formulario__mensaje p {
+    margin:0;
+}
+
+.formulario__mensaje-exito {
+    background-color: #ff239c;
+    color:white;
+    line-height: 25px;
+    padding: 0 15px;
+    border-radius: 5px;
+    display:none;
+}
+
+.formulario__mensaje-exito-activo {
+    display:block;
+}
+
+.formulario__grupo-correcto .formulario__validacion-estado {
+    color:rgb(14, 184, 184);
+    opacity:1;
+}
+
+.formulario__grupo-incorrecto .formulario__validacion-estado {
+    color:rgb(175, 0, 44);
+    opacity:1;
+}
+
+.formulario__grupo-incorrecto .formulario__input {
+    border: 3px solid rgb(175,0,44);
+}
+
 
 
 

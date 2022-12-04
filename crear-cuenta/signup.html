@@ -57,78 +57,109 @@
 
     <!-- Inicia formulario -->
     <div class="container-fluid text-center contenedor-mayor">
-        <div class="row">
-            <div class="col-xs-2 col-sm-3 col-md-3 col-lg-4 "> 
-                
-        </div>
-            <div class="col align-items-center col-xs-6 col-sm-6 col-md-6 col-lg-4 shadow p-3 mb-5 rounded-5 contenedor" >
-                <form>
+      <div class="row">
+          <div class="col-xs-2 col-sm-3 col-md-3 col-lg-4 ">    
+          </div>
+          <div class="col align-items-center col-xs-6 col-sm-6 col-md-6 col-lg-4 shadow p-3 mb-5 formulario" id="formulario" class="formulario">
+              <form>
+                  <figure>
+                      <img src="./img/deraspalogoarriba-copia.png" alt="logo" style="height:5rem" class="imagen-contenedor">
+                  </figure>
+                  
+                  <!-- nombre -->
+                  <div class="align-items-center formulario__grupo" id="grupo__nombre"> 
+                      <label for="nombre" class="formulario__label"></label>
+                      <div class="formulario__grupo-input">
+                          <input class="formulario__input" type="text" name="nombre" id="nombre" placeholder="Nombre">
+                          <i class="formulario__validacion-estado fa-sharp fa-solid fa-circle-xmark"></i>
+                      </div>
+                      <p class="formulario__input-error">El nombre debe contener unicamente letras</p>
+                  </div>
+                  <br>
 
-                    <figure>
-                        <img src="./img/deraspalogoarriba-copia.png" alt="logo" style="height:5rem" class="imagen-contenedor">
-                    </figure>
+                  <!-- apellido -->
+                  <div class="align-items-center formulario__grupo" id="grupo__apellido"> 
+                      <label for="apellido" class="formulario__label"></label>
+                      <div class="formulario__grupo-input">
+                          <input class="formulario__input" type="text" name="apellido" id="apellido" placeholder="Apellido">
+                          <i class="formulario__validacion-estado fa-sharp fa-solid fa-circle-xmark"></i>
+                      </div>
+                      <p class="formulario__input-error">Los apellidos deben contener unicamente letras</p>
+                  </div>
+                  <br>
 
-                    <!-- <div class="leyenda-formulario">Regístrate</div> -->
+                    <!-- email -->
+                    <div class="align-items-center formulario__grupo" id="grupo__email"> 
+                      <label for="email" class="formulario__label"></label>
+                      <div class="formulario__grupo-input">
+                          <input class="formulario__input" type="email" name="email" id="email" placeholder="Correo electrónico">
+                          <i class="formulario__validacion-estado fa-sharp fa-solid fa-circle-xmark"></i>
+                      </div>
+                      <p class="formulario__input-error">El correo solo puede contener letras, números, puntos, guiones y guion bajo.</p>
+                  </div>
+                  <br>
 
-                    <div class="align-items-center formularios"> 
-                        <label for="Nombre"></label>
-                        <input class="campo" type="text" name="Nombre" id="Nombre" placeholder="Nombre" required>
-                    </div>
-                    <br>
-                    
-                    <div class="align-items-center formularios">
-                        <label for="Apellido"></label>
-                        <input class="campo" type="text" name="Apellido" id="Apellido" placeholder="Apellido" required>
-                    </div>
-                    <br>
+                  <!-- domicilio -->
+                  <div class="align-items-center formulario__grupo" id="grupo__domicilio"> 
+                      <label for="domicilio" class="formulario__label"></label>
+                      <div class="formulario__grupo-input">
+                          <input class="formulario__input" type="text" name="domicilio" id="domicilio" placeholder="Domicilio completo">
+                          <i class="formulario__validacion-estado fa-sharp fa-solid fa-circle-xmark"></i>
+                      </div>
+                      <p class="formulario__input-error">El domicilio debe contener unicamente letras y números.</p>
+                  </div>
+                  <br>
 
-                    <div class="align-items-center formularios"> 
-                        <label for="Correo electrónico"></label>
-                        <input class="campo" type="text" name="Correo electrónico" id="Correo electronico" placeholder="Correo electrónico" required>
-                    </div>
-                    <br>
+                   <!-- contraseña -->
+                   <div class="align-items-center formulario__grupo" id="grupo__password"> 
+                      <label for="password" class="formulario__label"></label>
+                      <div class="formulario__grupo-input">
+                          <input class="formulario__input" type="password" name="password" id="password" placeholder="Contraseña">
+                          <i class="formulario__validacion-estado fa-sharp fa-solid fa-circle-xmark"></i>
+                      </div>
+                      <p class="formulario__input-error">La contraseña tiene que ser de 4 a 12 dígitos</p>
+                  </div>
+                  <br>
 
-                    <div class="align-items-center formularios"> 
-                        <label for="Confirmar correo electrónico"></label>
-                        <input class="campo" type="text" name="Confirmar correo electrónico" id="Confirmar correo electronico" placeholder="Confirmar correo" required>
-                    </div>
-                    <br>
+                   <!-- contraseña2 -->
+                   <div class="align-items-center formulario__grupo" id="grupo__password2"> 
+                      <label for="password2" class="formulario__label"></label>
+                      <div class="formulario__grupo-input">
+                          <input class="formulario__input" type="password" name="password2" id="password2" placeholder="Confirmar Contraseña">
+                          <i class="formulario__validacion-estado fa-sharp fa-solid fa-circle-xmark"></i>
+                      </div>
+                      <p class="formulario__input-error">Las contraseñas no son iguales</p>
+                  </div>
+                  <br>
 
-                    <div class="align-items-center formularios"> 
-                        <label for="Dirección"></label>
-                        <input class="campo" type="text" name="Dirección" id="Direccion" placeholder="Dirección" required>
-                    </div>
-                    <br>
+                  <!-- boton -->
+                  <div class= "align-items-center formulario__grupo formulario__grupo-btn-enviar">
+                      <input type="submit" value="Crear cuenta" id="boton" class="formulario__btn">
+                      <div class="formulario__mensaje-exito" id="formulario__mensaje-exito">
+                          <p>Tus datos se resgistraron correctamente</p>
+                      </div>
+                      <div class="formulario__mensaje" id="formulario__mensaje">
+                          <p><i class="fa-solid fa-triangle-exclamation"></i><b>Error:</b>Por favor rellena el formulario correctamente.</p>
+                      </div>
+                  </div>
+                  <br>
 
-                    <div class="align-items-center formularios"> 
-                        <label for="Codigo Postal"></label>
-                        <input class="campo" type="text" name="Codigo Postgial" id="Codigo Postal" placeholder="Código Postal" required>
-                    </div>
-                    <br>
+                  <!-- mensajes -->
+                 
 
-                    <div class="align-items-center formularios">
-                        <label for="Contraseña"></label>
-                        <input class="campo" type="password" name="Contraseña" id="Contraseña" placeholder="Contraseña" required>
-                    </div>
-                    <br>
+                  <div>
+                      <h1 class="mensaje-footer-caja text-decoration-underline"><a class="aInicio"href="/Iniciar-Sesion/sesion.html">¿Ya tienes una cuenta? Inicia Sesión.</a></h1>
+                  </div>
+                  
+              </form>
+          </div>
 
-                    <div class= "align-items-center formularios">
-                        <input type="submit" value="Crear cuenta" id="boton" class="crear-cuenta-btn">
-                    </div>
-                    <br>
+          <div class="col-xs-2 col-sm-3 col-md-3 col-lg-4">
+              
+          </div>
+      </div>
 
-                    <h1 class="mensaje-footer-caja text-decoration-underline texto-iniciar-sesion"><a class="aInicio"href="/Iniciar-Sesion/sesion.html">¿Ya tienes una cuenta? Inicia Sesión.</a></h1>
-
-                </form>
-            </div>
-
-            <div class="col-xs-2 col-sm-3 col-md-3 col-lg-4">
-                
-            </div>
-        </div>
-
-    </div>
-
+  </div>
     <!-- Termina formulario -->
 
     <!-- inicia footer -->
@@ -164,8 +195,8 @@
         </div>  
       </div>   
   <!-- termina footer -->
-
-
+      <script src="./assets/signup.js"></script>
+    <script src="https://kit.fontawesome.com/ed44661372.js"crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 </html>
