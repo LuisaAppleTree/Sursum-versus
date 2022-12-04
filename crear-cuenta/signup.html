@@ -71,9 +71,13 @@
                       <label for="nombre" class="formulario__label"></label>
                       <div class="formulario__grupo-input">
                           <input class="formulario__input" type="text" name="nombre" id="nombre" placeholder="Nombre">
-                          <i class="formulario__validacion-estado fa-sharp fa-solid fa-circle-xmark"></i>
+                          <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                          
                       </div>
-                      <p class="formulario__input-error">El nombre debe contener unicamente letras</p>
+                      <div>
+                        <p class="formulario__input-error">El nombre debe contener unicamente letras</p>
+                      </div>
+                      
                   </div>
                   <br>
 
@@ -82,7 +86,7 @@
                       <label for="apellido" class="formulario__label"></label>
                       <div class="formulario__grupo-input">
                           <input class="formulario__input" type="text" name="apellido" id="apellido" placeholder="Apellido">
-                          <i class="formulario__validacion-estado fa-sharp fa-solid fa-circle-xmark"></i>
+                          <i class="formulario__validacion-estado fas fa-times-circle"></i>
                       </div>
                       <p class="formulario__input-error">Los apellidos deben contener unicamente letras</p>
                   </div>
@@ -93,7 +97,7 @@
                       <label for="email" class="formulario__label"></label>
                       <div class="formulario__grupo-input">
                           <input class="formulario__input" type="email" name="email" id="email" placeholder="Correo electrónico">
-                          <i class="formulario__validacion-estado fa-sharp fa-solid fa-circle-xmark"></i>
+                          <i class="formulario__validacion-estado fas fa-times-circle"></i>
                       </div>
                       <p class="formulario__input-error">El correo solo puede contener letras, números, puntos, guiones y guion bajo.</p>
                   </div>
@@ -104,7 +108,7 @@
                       <label for="domicilio" class="formulario__label"></label>
                       <div class="formulario__grupo-input">
                           <input class="formulario__input" type="text" name="domicilio" id="domicilio" placeholder="Domicilio completo">
-                          <i class="formulario__validacion-estado fa-sharp fa-solid fa-circle-xmark"></i>
+                          <i class="formulario__validacion-estado fas fa-times-circle"></i>
                       </div>
                       <p class="formulario__input-error">El domicilio debe contener unicamente letras y números.</p>
                   </div>
@@ -115,7 +119,7 @@
                       <label for="password" class="formulario__label"></label>
                       <div class="formulario__grupo-input">
                           <input class="formulario__input" type="password" name="password" id="password" placeholder="Contraseña">
-                          <i class="formulario__validacion-estado fa-sharp fa-solid fa-circle-xmark"></i>
+                          <i class="formulario__validacion-estado fas fa-times-circle"></i>
                       </div>
                       <p class="formulario__input-error">La contraseña tiene que ser de 4 a 12 dígitos</p>
                   </div>
@@ -126,7 +130,7 @@
                       <label for="password2" class="formulario__label"></label>
                       <div class="formulario__grupo-input">
                           <input class="formulario__input" type="password" name="password2" id="password2" placeholder="Confirmar Contraseña">
-                          <i class="formulario__validacion-estado fa-sharp fa-solid fa-circle-xmark"></i>
+                          <i class="formulario__validacion-estado fas fa-times-circle"></i>
                       </div>
                       <p class="formulario__input-error">Las contraseñas no son iguales</p>
                   </div>
@@ -135,11 +139,11 @@
                   <!-- boton -->
                   <div class= "align-items-center formulario__grupo formulario__grupo-btn-enviar">
                       <input type="submit" value="Crear cuenta" id="boton" class="formulario__btn">
-                      <div class="formulario__mensaje-exito" id="formulario__mensaje-exito">
-                          <p>Tus datos se resgistraron correctamente</p>
-                      </div>
                       <div class="formulario__mensaje" id="formulario__mensaje">
-                          <p><i class="fa-solid fa-triangle-exclamation"></i><b>Error:</b>Por favor rellena el formulario correctamente.</p>
+                        <p><i class="fas fa-exclamation-triangle"></i> <b>Error:</b> Por favor rellena el formulario correctamente. </p>
+                      </div>
+                      <div>
+                        <p class="formulario__mensaje-win" id="formulario__mensaje-win"><i class="fa-solid fa-triangle-exclamation"></i><b>Gracias.</b>Tus datos se resgistraron correctamente.</p>
                       </div>
                   </div>
                   <br>

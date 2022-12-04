@@ -134,14 +134,15 @@ rgb(255, 119, 221)
 
 
 .formulario__input-error {
-    font-size:12px;
     display:none;
 }
 
 .formulario__input-error-activo {
-    font-size:12px;
-    margin-top: 200px;
+    font-size:20px;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
     display:block;
+    font-weight: 400;
 }
 
 .formulario__validacion-estado {
@@ -170,7 +171,7 @@ rgb(255, 119, 221)
     margin:0;
 }
 
-.formulario__mensaje-exito {
+.formulario__mensaje-win {
     background-color: #ff239c;
     color:white;
     line-height: 25px;
@@ -179,7 +180,7 @@ rgb(255, 119, 221)
     display:none;
 }
 
-.formulario__mensaje-exito-activo {
+.formulario__mensaje-win-activo {
     display:block;
 }
 
