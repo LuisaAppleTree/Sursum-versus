@@ -1,3 +1,9 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
 .nav-pills {
     background-color: #ccffff;
 }
@@ -19,7 +25,15 @@
 }
 
 body {
-    background-color: #e6ccff;
+    background-color: #F1E4FF;
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    max-width: 100vw;
+    background-size: cover;
+    backdrop-filter: blur;
 }
 
 footer {
@@ -28,4 +42,45 @@ footer {
 
 #aparato {
     background-color: violet;
+}
+/* barra de enmedio */
+.pink {
+    background-color: #ff72d2;
+}
+
+.dt-txt {
+    font-weight: 800;
+    font-size: 2rem;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Tarjetas */
+.color-trj {
+    background-color: #FFB1E6; ;
+    color: blueviolet;
+    width: 355.99;
+    height: 326.21;   
+}
+
+.h5card {
+    /* background-color:rgb(254,182,233); */
+    margin-bottom: 1vh;
+    width: 100%;
+    height: 20%;
+    font-weight: 400;
+    font-size: 1.8rem;
+   
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: white; 
+}
+
+.title p{
+    font-weight: 400;
+    font-size: 2rem;
+    color: white;
+}
+
+.col {
+    height: 65vh;
 }
