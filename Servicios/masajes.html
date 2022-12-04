@@ -6,59 +6,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MASAJES</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="/Servicios/assets/styles/style.css">
+    <link rel="stylesheet" href="/footer-nav/footerNav.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
 </head>
 <body>
-    <main>    
-        <!-- Inicio nav -->
-        <div class="container-fluid">
-          <nav class="navbar navbar-expand-lg navbar-light fondo">
-            <a class="navbar-brand ms-3" href="./index.html">
-              <img src="./assets/img/logo.png" alt="logo">
+   <!-- Inico de la  barra navegacion -->
+   <nav class="navbar navbar-expand-lg navbar-light fondo">
+    <div class="container-fluid">
+      <a class="navbar-brand ms-3" href="/paginainicio/index.html">
+        <img src="/footer-nav/logo-copia.png" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
+          <li class="nav-item">
+            <a class="nav-link text-dark" aria-current="page" href="/nosotros/nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Servicios
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
-              <li class="nav-item">
-                <a class="nav-link text-dark" aria-current="page" href="#">Nosotros</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Servicios</a>
-                <ul class="dropdown-menu text-center" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="./cosme.html">Cosmetología</a></li>
-                  <li><a class="dropdown-item" href="./masajes.html">Masajes</a></li>
-                  <li><a class="dropdown-item" href="./aparato.html">Aparatología</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-dark" href="#">Productos</a>
-              </li>
+            <ul class="dropdown-menu text-center" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="/Servicios/cosme.html">Cosmetología</a></li>
+              <li><a class="dropdown-item" href="/Servicios/masajes.html">Masajes</a></li>
+              <li><a class="dropdown-item" href="/Servicios/aparato.html">Aparatología</a></li>
             </ul>
-            <ul class="d-flex flex-column flex-lg-row mb-2 mb-lg-0">
-              <button class="btn me-3" type="button" id="b1">Iniciar sesión</button>
-              <button class="btn me-3" type="button" id="b2">Registro</button>
-            </ul>
-              <a href="#" class="nav-link text-dark text-center d-lg-none"><i class="bi bi-cart2"></i> Mi carrito</a>
-            <a class="navbar-brand ms-3 d-none d-lg-inline" href="#">
-              <img src="./assets/img/carrito.png"  class="image-fluid" alt="carrito">
-            </a>
-          </div>
-        </div>
-      </nav>
-        <!-- Fin nav -->
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="/productos/productos.html">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="/contacto/v1contacto.html">Contacto</a>
+          </li>
+        </ul>
+        <ul class="d-flex flex-column flex-lg-row mb-2 mb-lg-0">
+          <button class="btn me-3" type="button" id="b1" ><a class="aInicio" href="/Iniciar-Sesion/sesion.html"> Iniciar sesion</a>
+          <button class="btn me-3" type="button" id="b2"><a class="aRegistro" href="/crear-cuenta/signup.html"> Registro</a></button>
+        </ul>
+          <a href="/carrito/carrito.html" class="nav-link text-dark text-center d-lg-none"><i class="bi bi-cart2"></i> Mi carrito</a>
+        <a class="navbar-brand ms-3 d-none d-lg-inline" href="/carrito/carrito.html">
+          <img src="/footer-nav/carrito.png"  class="image-fluid" alt="carrito">
+        </a>
+      </div>
+    </div>
+  </nav>
+    
+        <!-- Fin de la barra navegacion  -->
 
         <div class="container">
-            <h1 id="aparato">MASAJES</h1>
+          <h2 class="text-center dt-txt mt-2">Masajes</h2>
 
             <!-- Inicio TARJETAS -->
             <div class="row row-cols-1 row-cols-md-4 g-4">
                 <div class="col">
                   <div class="card h-100">
                     <img src="./assets/img/masajeRelajante.jpeg" class="card-img-top" alt="Masaje relajante">
-                    <div class="card-body">
+                    <div class="card-body ">
                       <h5 class="card-title">Masaje relajante</h5>
                       <p class="card-text">El objetivo principal del masaje relajante es aliviar la tensión y conseguir un estado mental de relajación, priorizando las manipulaciones y los movimientos suaves en la espalda del paciente.</p>
                     </div>
@@ -98,7 +104,7 @@
         </div>
 
 
-        </container>
+        <br><br><br>
 
 
 
@@ -106,44 +112,45 @@
 
 
 
-    </main>
+  
 
 
 
 
-    <footer>
-      <div class="container text-center">
-        <div class="row align-items-center">
-            <div class="col">
-                <img class="logoempresa" src="./assets/img/deraspalogoarriba.png" alt="logo de la empresa">
-            </div>
-            <div class="col nombreempresa">
-                &#174;DermaSpa
-            </div>
-            <div class="col iconosredes">
-                
-                <a href="https://www.instagram.com/dermaspaa/" target="_blank" rel="noopener noreferrer">
-                    <i class="bi bi-instagram"></i>
-                </a>
-                
-                <a href="https://www.tiktok.com/@dermaspaa" target="_blank" rel="noopener noreferrer">
-                    <i class="bi bi-tiktok"></i>
-                </a>
-                
-                <a href="https://www.facebook.com/DermaSpaClinica/" target="_blank" rel="noopener noreferrer">
-                    <i class="bi bi-facebook"></i>
-                </a>
-                
-                <a href="mailto:dermaspaa@gmail.com" target="_blank" rel="noopener noreferrer">
-                    <i class="bi bi-envelope"></i>
-                </a> 
-                <a href="https://www.google.com/maps/place/Av+Mariano+Matamoros+Nte+1054,+Ni%C3%B1os+Heroes,+81430+Guam%C3%BAchil,+Sin./@25.4698424,-108.0752037,18.25z/data=!4m5!3m4!1s0x86bb88747d4c6e45:0xb24543a63bd20c13!8m2!3d25.4697777!4d-108.074752" target="_blank" rel="noopener noreferrer">
+    <!-- inicia footer -->
+    <div class="container-fluid text-center footer">
+      <div class="row align-items-center">
+          <div class="col">
+            <img class="logoempresa" src="/footer-nav/logo.png" alt="logo de la empresa">
+          </div>
+          <div class="col nombreempresa ">
+              &#174;DermaSpa
+          </div>
+          <div class="col iconosredes">
+              
+                  <a href="https://www.instagram.com/dermaspaa/" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-instagram"></i>
+                  </a>
+              
+                  <a href="https://www.tiktok.com/@dermaspaa" target="_blank" rel="noopener noreferrer">
+                          <i class="bi bi-tiktok"></i>
+                  </a>
+              
+                  <a href="https://www.facebook.com/DermaSpaClinica/" target="_blank" rel="noopener noreferrer">
+                          <i class="bi bi-facebook"></i>
+                  </a>
+              
+                  <a href="mailto:dermaspaa@gmail.com" target="_blank" rel="noopener noreferrer">
+                          <i class="bi bi-envelope"></i>
+                  </a> 
+                  <a href="https://www.google.com/maps/place/Av+Mariano+Matamoros+Nte+1054,+Ni%C3%B1os+Heroes,+81430+Guam%C3%BAchil,+Sin./@25.4698424,-108.0752037,18.25z/data=!4m5!3m4!1s0x86bb88747d4c6e45:0xb24543a63bd20c13!8m2!3d25.4697777!4d-108.074752" target="_blank" rel="noopener noreferrer">
                    <i class="bi bi-geo-alt"></i>
-                </a>   
-            </div>
-          </div>  
-        </div>
-    </footer>
+               </a>   
+          </div>
+        </div>  
+      </div>   
+  <!-- termina footer -->
+
 
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>

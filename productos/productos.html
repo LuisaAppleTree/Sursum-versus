@@ -7,6 +7,7 @@
     <title>Productos</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/styleProduct.css">
+    <link rel="stylesheet" href="/footer-nav/footerNav.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
 
 
@@ -15,46 +16,50 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Inico de la  barra navegacion -->
-    <nav class="navbar navbar-expand-lg navbar-light fondo">
-        <div class="container">
-            <a class="navbar-brand ms-3" href="#">
-                <img src="assets/img/logo.png" alt="logo">
-            </a>
-           
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
-                <li class="nav-item">
-                <a class="nav-link text-dark" aria-current="page" href="#">Nosotros</a>
-                </li>
-                <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Servicios
-                </a>
-                <ul class="dropdown-menu text-center" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Cosmetología</a></li>
-                    <li><a class="dropdown-item" href="#">Masajes</a></li>
-                    <li><a class="dropdown-item" href="#">Aparatología</a></li>
-                </ul>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link text-dark" href="#">Productos</a>
-                </li>
-            </ul>
-            <ul class="d-flex flex-column flex-lg-row mb-2 mb-lg-0">
-                <button class="btn me-3" type="button" id="b1">Iniciar sesion</button>
-                <button class="btn me-3" type="button" id="b2">Registro</button>
-            </ul>
-                <a href="#" class="nav-link text-dark text-center d-lg-none"><i class="bi bi-cart2"></i> Mi carrito</a>
-            <a class="navbar-brand ms-3 d-none d-lg-inline" href="#">
-                <img src="assets/img/carrito.png"  class="image-fluid" alt="carrito">
-            </a>
-            </div>
-     </nav>
-      </div>
+  <!-- Inico de la  barra navegacion -->
+ <!-- Inico de la  barra navegacion -->
+ <nav class="navbar navbar-expand-lg navbar-light fondo">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-3" href="/paginainicio/index.html">
+      <img src="/footer-nav/logo-copia.png" alt="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
+        <li class="nav-item">
+          <a class="nav-link text-dark" aria-current="page" href="/nosotros/nosotros.html">Nosotros</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Servicios
+          </a>
+          <ul class="dropdown-menu text-center" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="/Servicios/cosme.html">Cosmetología</a></li>
+            <li><a class="dropdown-item" href="/Servicios/masajes.html">Masajes</a></li>
+            <li><a class="dropdown-item" href="/Servicios/aparato.html">Aparatología</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="/productos/productos.html">Productos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="/contacto/v1contacto.html">Contacto</a>
+        </li>
+      </ul>
+      <ul class="d-flex flex-column flex-lg-row mb-2 mb-lg-0">
+        <button class="btn me-3" type="button" id="b1" ><a class="aInicio" href="/Iniciar-Sesion/sesion.html"> Iniciar sesion</a>
+        <button class="btn me-3" type="button" id="b2"><a class="aRegistro" href="/crear-cuenta/signup.html"> Registro</a></button>
+      </ul>
+        <a href="/carrito/carrito.html" class="nav-link text-dark text-center d-lg-none"><i class="bi bi-cart2"></i> Mi carrito</a>
+      <a class="navbar-brand ms-3 d-none d-lg-inline" href="/carrito/carrito.html">
+        <img src="/footer-nav/carrito.png"  class="image-fluid" alt="carrito">
+      </a>
+    </div>
+  </div>
+</nav>
+  <!-- Fin de la barra navegacion  -->
         <!-- Fin de la barra navegacion  -->
 
       <!-- imagen del medio -->
@@ -63,12 +68,13 @@
       <!-- imagen del medio fin  -->
       
       
-        <div class="container conteiner-flex ">
+      <div class="container-fluid d-flex justify-content-center pink">
           
           
             
             <!-- inicio barra medio -->
-            <h2 class="text-center altura h2Producto">Tienda</h2>
+
+            <h2 class="text-center dt-txt mt-2">Tienda</h2>
             
         </div>
   
@@ -89,7 +95,7 @@
                         
                         <p class="card-text"><b>$1234</p></b>
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde rem aperiam vitae consequuntur, doloremque hic.</p>
-                        <a href="#" class="btn btn-card">Agregar al carrito</a>
+                        <a href="/carrito/carrito.html" class="btn btn-card">Agregar al carrito</a>
                       
                       </div>
                     </div>
@@ -102,7 +108,7 @@
                   <h5 class="card-title h5card">Cannabacea</h5>
                   <p class="card-text"><b>$1234</p></b>
                   <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde rem aperiam vitae consequuntur, doloremque hic.</p>
-                  <a href="#" class="btn btn-card  ">Agregar al carrito</a>
+                  <a href="/carrito/carrito.html" class="btn btn-card">Agregar al carrito</a>
                 </div>
               </div>
               <!-- Card 3 -->
@@ -113,7 +119,7 @@
                   <h5 class="card-title h5card">Black Alium Kit</h5>
                   <p class="card-text"><b>$1234</p></b>
                   <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde rem aperiam vitae consequuntur, doloremque hic.</p>
-                  <a href="#" class="btn btn-card">Agregar al carrito</a>
+                  <a href="/carrito/carrito.html" class="btn btn-card">Agregar al carrito</a>
                 </div>
               </div>
            <!-- Card 4 -->
@@ -124,7 +130,7 @@
               <h5 class="card-title h5card">Neyss Oxígeno Activado</h5>
               <p class="card-text"><b>$1234</p></b>
               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde rem aperiam vitae consequuntur, doloremque hic.</p>
-              <a href="#" class="btn btn-bd-primary  btn-card ">Agregar al carrito</a>
+              <a href="/carrito/carrito.html" class="btn btn-card">Agregar al carrito</a>
             </div>
           </div>
           <!-- </div> --><!-- div row -->
@@ -142,7 +148,7 @@
             <h5 class="card-title h5card">Astringente Black Allium</h5>
             <p class="card-text"><b>$1234</p></b>
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde rem aperiam vitae consequuntur, doloremque hic.</p>
-            <a href="#" class="btn btn-card ">Agregar al carrito</a>
+            <a href="/carrito/carrito.html" class="btn btn-card">Agregar al carrito</a>
           </div>
         </div>
         <!-- Card 6 -->
@@ -153,7 +159,7 @@
             <h5 class="card-title h5card">Astringente Gel Cosmedic</h5>
             <p class="card-text"><b>$1234</p></b>
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde rem aperiam vitae consequuntur, doloremque hic.</p>
-            <a href="#" class="btn btn-card  ">Agregar al carrito</a>
+            <a href="/carrito/carrito.html" class="btn btn-card">Agregar al carrito</a>
           </div>
         </div>
         <!-- Card 7 -->  
@@ -165,7 +171,7 @@
             <h5 class="card-title h5card">Polvo Astringente</h5>
             <p class="card-text"><b>$1234</p></b>
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde rem aperiam vitae consequuntur, doloremque hic.</p>
-            <a href="#" class="btn btn-card">Agregar al carrito</a>
+            <a href="/carrito/carrito.html" class="btn btn-card">Agregar al carrito</a>
           </div>
         </div>
         <!-- Card 8 -->
@@ -177,7 +183,7 @@
             <h5 class="card-title h5card">Mascarilla Black Allium</h5>
             <p class="card-text"><b>$1234</p></b>
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde rem aperiam vitae consequuntur, doloremque hic.</p>
-            <a href="#" class="btn btn-card">Agregar al carrito</a>
+            <a href="/carrito/carrito.html" class="btn btn-card">Agregar al carrito</a>
           
           </div>
         </div>
@@ -202,9 +208,9 @@
 
 <!-- inicia footer -->
 <div class="container-fluid text-center footer">
-  <div class="row ">
+  <div class="row align-items-center">
       <div class="col">
-          <img class="logoempresa" src="assets/img/logo.png" alt="logo de la empresa">
+        <img class="logoempresa" src="/footer-nav/logo.png" alt="logo de la empresa">
       </div>
       <div class="col nombreempresa ">
           &#174;DermaSpa
@@ -232,11 +238,8 @@
       </div>
     </div>  
   </div>   
+<!-- termina footer -->
 
-    
-     
-     
-     <!-- termina footer  -->
 
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
      
