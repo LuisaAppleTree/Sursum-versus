@@ -127,101 +127,108 @@ a.dropdown-item:hover {
 .sombra{
     box-shadow: rgba(0, 0, 0, 0.45) 0px 30px 20px -20px;
 }
-.opacidad{
-    opacity: .7;
-}
+
 .medida{
     width: 80%;
     border-radius: 20px;
 }
-/* EFECTO BOTONES */
-.efecto{
-    transition: transform 0.3s ease;
-}
-.efecto::after, .efecto::before{
-    content: "";
-    position: absolute;
-    opacity: 0.3;
-    background-image:linear-gradient(to right, #833AB4,#FD1D1D,#FCB045);
-    border-radius: inherit;
-    /*  height: 100%;
-    width: 100%;  */
-    left: 0;
-    bottom: 0;
-    z-index: -1;
-    transition:transform 0.3s ease ;
-
-}
-
-.efecto:hover{
-    transform: translate(-6px,-6px);
-}
-.efecto:hover::after{
-    transform: translate(3px,3px);
-}
-.efecto:hover::before{
-    transform: translate(6px,6px);
-}
-/* TERMINA EFECTO BOTONES */
 
 /* INICIA BOTON INSTAGRAM */
 .instagram{
-    color: white;
+    color: #8C30F5;
     border: 0;
-    background-image:linear-gradient(to right, #833AB4,#FD1D1D,#FCB045);
-   
+   /*  background-image:linear-gradient(to right, #833AB4,#FD1D1D,#FCB045); */
+     background-color: #D6B1FF;
     height:56px;
     margin-top: 10px;
     margin-bottom: 10px;
+    transition:  0.2s ease-in;
 }
+.instagram:hover{
+    background-image:linear-gradient(to right, #833AB4,#FD1D1D,#FCB045);
+    opacity: .8;
+    color: white;
+}
+
 
 
 /* TERMINA BOTON INSTAGRAM */
 .facebook{
-    color: white;
+    color: #8C30F5;
     border: 0;
-    background-image:linear-gradient(to right,#1877f2,#1877f2 );
-    
+    /* background-image:linear-gradient(to right,#1877f2,#1877f2 ); */
+    background-color: #D6B1FF;
     height:56px;
     margin-top: 10px;
     margin-bottom: 10px;
+    transition:  0.2s ease-in;
+
+}
+.facebook:hover{
+    background-image:linear-gradient(to right,#1877f2,#1877f2 );
+    opacity: .8;
+    color: white;
 }
 .tiktok{
-    color: white;
+    color: #8C30F5;
     border: 0;
-    background-image: linear-gradient(to right,#25F4EE,#000000,#FE2C55);
-   
+   /*  background-image: linear-gradient(to right,#25F4EE,#000000,#FE2C55); */
+   background-color: #D6B1FF;
     height:56px;
     margin-top: 10px;
     margin-bottom: 10px;
+    transition:  0.2s ease-in;
+}
+.tiktok:hover{
+    background-image: linear-gradient(to right,#25F4EE,#000000,#FE2C55);
+    opacity: .8;
+    color: white;
 }
 .whatsapp{
-    color: white;
+    color: #8C30F5;
     border: 0;
-    background-image:linear-gradient(to right,#00BB2D ,#00BB2D) ;
-    
+    /* background-image:linear-gradient(to right,#00BB2D ,#00BB2D) ; */
+    background-color: #D6B1FF;
     height:56px;
     margin-top: 10px;
     margin-bottom: 10px;
+    transition:  0.2s ease-in;
+}
+.whatsapp:hover{
+    background-image:linear-gradient(to right,#00BB2D ,#00BB2D) ;
+    opacity: .8;
+    color: white;
 }
 .correo{
-    color: white;
+    color: #8C30F5;
     border: 0;
-    background-image:linear-gradient(to right,#EA4335 ,#EA4335) ;
-    
+    /* background-image:linear-gradient(to right,#EA4335 ,#EA4335) ; */
+    background-color: #D6B1FF;
     height:56px;
     margin-top: 10px;
     margin-bottom: 10px;
+    transition:  0.2s ease-in;
+}
+.correo:hover{
+    background-image:linear-gradient(to right,#EA4335 ,#EA4335) ;
+    opacity: .8;
+    color: white;
 }
 /* INICIA BOTON DE UBICACION */
 .ubicacion{
-    color: white;
+    color: #8C30F5;
     border: 0;
-    background-image:linear-gradient(to right,#419EF8 ,#419EF8) ;
-  
+    /* background-image:linear-gradient(to right,#419EF8 ,#419EF8) ; */
+    background-color: #D6B1FF;
     height:56px;
     margin-top: 10px;
     margin-bottom: 10px;
+    transition:  0.2s ease-in;
+}
+.ubicacion:hover{
+    background-image:linear-gradient(to right,#419EF8 ,#419EF8);
+    opacity: .8;
+    color: white;
 }
 
 
@@ -234,7 +241,7 @@ a.dropdown-item:hover {
 /* footer */
 .footer{
     /* background-color: #D6B1FF; */
-    background-color:#FDD9D9 ;
+    background-color:#D6B1FF ;
     margin-top: auto;
     max-height: 4.375rem;
     width: 100%;
