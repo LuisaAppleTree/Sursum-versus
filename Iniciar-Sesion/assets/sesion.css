@@ -98,7 +98,12 @@ a.dropdown-item:hover {
     border-radius: 5px;
     height: 40px;
     background-color: rgb(140, 48,245);
+    
+} 
+.boton1:hover{
+    background-color: yellow;
 }
+
 .boton2{
     font-weight: 300em;
     color: white;
@@ -108,6 +113,9 @@ a.dropdown-item:hover {
     height: 40px;
     background-color: rgb(197,113, 237);
 
+}
+.boton2:hover{
+    background-color: yellow;
 }
 .contenedor{
     margin-top: 9vh;
