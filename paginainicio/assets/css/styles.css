@@ -1,18 +1,12 @@
-
-
+/* Inicio configuracion de toda la página */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-body {
-    background-color: #e6ccff;
+body{
+    background-color:#F1E4FF ;
     font-family: 'Roboto', sans-serif;
-    min-height: 100vh;
-    display:flex;
-    flex-direction: column;
-    background-repeat: no-repeat;
-    max-width: 100vw;
-    background-size: cover;
-    backdrop-filter: blur;
+    overflow-x: hidden;
 }
+/* Fin configuracion de toda la página */
 
 /* Inicio Estilos barra de navegacion */
 .fondo {
@@ -59,7 +53,7 @@ a.dropdown-item:hover {
 }
 /* Fin  estilos barra de navegacion */
 
-/* Barra de título */
+/* Inicio estilos de container DERMA TEAM */
 .pink {
     background-color: #ff72d2;
 }
@@ -71,43 +65,43 @@ a.dropdown-item:hover {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+/* Fin estilos container DERMA TEAM */
 
-/* Tarjetas */
-.color-trj {
-    background-color: #FFB1E8; ;
-    color: blueviolet;
-    width: 355.99;
-    height: 326.21;   
+/* Inicio estilos imagenes cosmetologas*/
+.barrablue {
+    background-color: #2EC5CE; font-size: 1.6rem; color: #FFFFFF; font-weight: 900;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); height: 6.5vh
 }
 
-.h5card {
-    /* background-color:rgb(254,182,233); */
-    margin-bottom: 1vh;
-    width: 100%;
-    height: 30%;
-    font-weight: 400;
-    font-size: 1.8rem;
-   
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    color: white; 
+.barrapink {
+    background-color: #FFB1E6; font-size: 1.4rem; color: #FFFFFF; font-weight: 900;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); height: 6.5vh;
 }
 
-.title p{
-    font-weight: 400;
-    font-size: 2rem;
-    color: white;
+.dalilam {
+    filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.25));  
 }
 
-.card-img-top {
-    height: 25rem;
+.dalila {
+    filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.25)); height: 350px; width: 300px;
 }
+
+.palomam {
+    filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.25));
+}
+
+.paloma {
+    filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.25)); height: 300px; width: 285px;
+}
+/* Fin estilos imagenes cosmetologas */
+
+
 
 
 /* Inicio estilos footer */
 .footer{
     background-color: #D6B1FF;
-    max-height: 4.375rem;
-    max-width: 100%;
+    max-height: 70px;
 }
 
 .logoempresa{
@@ -131,6 +125,39 @@ a.dropdown-item:hover {
     color:  #F22BB2 ;
 }
 
-.card-body {
-    height: 180px;
+/* Fin estilos footer */
+
+
+/* Tarjetas Servicios*/
+.color-trj {
+    background-color: #FFB1E8; ;
+    color: blueviolet;
+    width: 355.99;
+    height: 326.21;   
+}
+
+.h5card {
+    /* background-color:rgb(254,182,233); */
+    margin-bottom: 1vh;
+    width: 100%;
+    /* height: 20%; */
+    font-weight: 400;
+    font-size: 1.8rem;
+   
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: white; 
+}
+
+.title p{
+    font-weight: 400;
+    font-size: 2rem;
+    color: white;
+}
+
+.card-img-top {
+    height: 20rem;
+}
+
+.card-title {
+    height: 50px;
 }
