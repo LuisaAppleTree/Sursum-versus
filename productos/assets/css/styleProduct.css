@@ -116,3 +116,44 @@ margin-bottom: 5vh;
 
 
 
+/* xarrito */
+.modal-contenedor{
+    display:flex;
+    align-items: center;
+    gap:2rem;
+}
+.img-carrito{
+    width:150px;
+    padding:20px;
+} 
+.modal-content{
+    background-color:rgb(254,182,233);
+}
+
+#precioTotal{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+}
+.boton{
+    opacity:0;
+}
+
+
+.btn-carrito{
+
+    background-color: rgb(139,48,244) ;
+    color: white;
+}
+.btn-carrito:hover {
+    background-color:rgb(197, 113, 237);
+}
+.text-carrito{
+    color: blueviolet;
+}
+.radio{
+    border-radius: 10px;
+}
+
