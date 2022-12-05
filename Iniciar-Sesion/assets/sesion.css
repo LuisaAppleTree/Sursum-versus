@@ -63,6 +63,13 @@ a.dropdown-item:hover {
     height: 45px;
     line-height: 45px;
 }
+.formulario__input:focus {
+    border: 3px solid rgb(140, 48, 255);
+    outline: none;
+    box-shadow: 3px 0px 30px
+rgb(255, 119, 221)
+}
+
 .formulario__input-error{
     font-size: 12px;
     margin-bottom:0 ;
