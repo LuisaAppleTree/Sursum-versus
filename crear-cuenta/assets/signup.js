@@ -7,7 +7,7 @@ const expresiones = {
 	nombre: /^[a-zA-ZÀ-ÿ\s]{1,40}$/, // Letras y espacios, pueden llevar acentos.
     apellido: /^[a-zA-ZÀ-ÿ\s]{1,40}$/, // Letras y espacios, pueden llevar acentos.
 	password: /^.{4,12}$/, // 4 a 12 digitos.
-	correo: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
+	email:  /^\w+([.-_+]?\w+)*@\w+([.-]?\w+)*(\.\w{2,10})+$/,
 	telefono: /^\d{7,14}$/, // 7 a 14 numeros.
     domicilio:  /^[a-zA-Z1-9À-ÖØ-öø-ÿ]+\.?(( |\-)[a-zA-Z1-9À-ÖØ-öø-ÿ]+\.?)* (((#|[nN][oO]\.?) ?)?\d{1,4}(( ?[a-zA-Z0-9\-]+)+)?)$/ //letras, numeros y caracteres cómo gato, guion.
 }
@@ -15,7 +15,7 @@ const expresiones = {
 const campos = {
     nombre: false,
     apellido: false,
-    correo: false,
+    email: false,
     domicilio:false,
     password:false
 }
@@ -29,7 +29,7 @@ const validarFormulario = (e) => {
             validarCampo(expresiones.apellido, e.target, "apellido");
         break;
         case "email":
-            validarCampo(expresiones.correo, e.target, "email");
+            validarCampo(expresiones.email, e.target, "email");
         break;
         case "domicilio":
             validarCampo(expresiones.domicilio, e.target, "domicilio");
@@ -91,11 +91,11 @@ inputs.forEach((input) => {
 
 
 formulario.addEventListener('submit', (e) => {
+    
 	e.preventDefault();
 
-	if(campos.nombre && campos.apellido && campos.correo && campos.domicilio && campos.password ){
-		formulario.reset();
-
+	if(campos.nombre && campos.apellido && campos.email && campos.domicilio && campos.password){
+        
 		document.getElementById('formulario__mensaje-win').classList.add('formulario__mensaje-win-activo');
 		setTimeout(() => {
 			document.getElementById('formulario__mensaje-win').classList.remove('formulario__mensaje-win-activo');
@@ -104,6 +104,7 @@ formulario.addEventListener('submit', (e) => {
 		document.querySelectorAll('.formulario__grupo-correcto').forEach((icono) => {
 			icono.classList.remove('formulario__grupo-correcto');
 		});
+        formulario.reset();
 	} else {
 		document.getElementById('formulario__mensaje').classList.add('formulario__mensaje-activo');
 	} 
