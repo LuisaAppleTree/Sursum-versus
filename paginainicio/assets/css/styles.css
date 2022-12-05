@@ -64,6 +64,7 @@ a.dropdown-item:hover {
     color: #FFFFFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
 /* Fin estilos container DERMA TEAM */
 
 /* Inicio estilos imagenes cosmetologas*/
@@ -94,8 +95,11 @@ a.dropdown-item:hover {
 }
 /* Fin estilos imagenes cosmetologas */
 
+
+
+
 /* Inicio estilos footer */
-footer{
+.footer{
     background-color: #D6B1FF;
     max-height: 70px;
 }
@@ -122,3 +126,38 @@ footer{
 }
 
 /* Fin estilos footer */
+
+
+/* Tarjetas Servicios*/
+.color-trj {
+    background-color: #FFB1E8;
+    color: blueviolet;
+    width: 355.99;
+    height: 326.21;   
+}
+
+.h5card {
+    /* background-color:rgb(254,182,233); */
+    margin-bottom: 1vh;
+    width: 100%;
+    /* height: 20%; */
+    font-weight: 400;
+    font-size: 1.8rem;
+   
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: white; 
+}
+
+.title p{
+    font-weight: 400;
+    font-size: 2rem;
+    color: white;
+}
+
+.card-img-top {
+    height: 20rem;
+}
+
+.card-title {
+    height: 50px;
+}
