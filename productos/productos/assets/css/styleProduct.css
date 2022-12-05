@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+
+}
+body{
+    background-color:#F1E4FF ;
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image:url(../img/fondo\ pagina\ web.jpg);
+    background-repeat: no-repeat;
+    max-width: 100vw;
+    
+    
+}
+
+
+
+/* barra de enmedio */
+.pink {
+    background-color: #ff72d2;
+}
+
+.dt-txt {
+    font-weight: 800;
+    font-size: 2rem;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+/* Fin de barra del medio */
+
+/* Estilo de tarjeta */
+/* Cards */
+.color-trj{
+    background-color: #FFB1E6; ;
+    color: blueviolet;
+    width: 355.99;
+    height: 326.21;
+    
+}
+.textProducto{
+    font-size: 10rem;
+}
+
+.h5card{
+    background-color:rgb(254,182,233);
+    margin-bottom: 2vh;
+    width: 100%;
+    height: 30%;
+    font-weight: 400;
+    font-size: 2rem;
+   
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: white;
+    
+}
+.title p{
+    font-weight: 400;
+    font-size: 2rem;
+    color: white;
+}
+
+.btn-card{
+    background-color: rgb(139,48,244) ;
+    color: white;
+    font-size: 90%;
+margin-bottom: 5vh;
+}
+
+
+
+.conimg{
+    padding-left: 0;
+}
+
+.textienda{
+    display: flex;
+}
+
+.Productbtn{
+    color:white;
+}
+
+.tamañobtb{
+    width: 30vh;
+    height: 5vh;
+    margin: 0vh;
+}
+
+
+.btn-color{
+    background-color:rgb(140,48,245);
+    color: white;
+
+    
+}
+.produc-btn:hover {
+    background-color:rgb(197, 113, 237);
+}
+.altura{
+    margin: 0;
+    margin-top: 2rem;
+    margin-left: 0;
+    margin-right: 0;
+     margin-bottom: -15rem;
+}
+.cotainer2 p{
+    color: rgb(139,48,244) ;
+    font-size: 1.5rem;
+}
+
+
+
+
+/* xarrito */
+.modal-contenedor{
+    display:flex;
+    align-items: center;
+    gap:2rem;
+}
+.img-carrito{
+    width:150px;
+    padding:20px;
+} 
+.modal-content{
+    background-color:rgb(254,182,233);
+}
+
+#precioTotal{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+}
+.boton{
+    opacity:0;
+}
+
+
+.btn-carrito{
+
+    background-color: rgb(139,48,244) ;
+    color: white;
+}
+.btn-carrito:hover {
+    background-color:rgb(197, 113, 237);
+}
+.text-carrito{
+    color: blueviolet;
+}
+.radio{
+    border-radius: 10px;
+}
+
