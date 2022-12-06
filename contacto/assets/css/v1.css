@@ -101,8 +101,9 @@ a.dropdown-item:hover {
    width: 157px;
 }
 .cont{
+    font-size: 1.7em;
     text-align: center;
-   
+    font-weight: 700;
     background-color: #FFC3D8;
     margin-top: 2vh;
     margin-bottom: 2vh;
@@ -133,9 +134,13 @@ a.dropdown-item:hover {
     border-radius: 20px;
 }
 
+a div{
+    margin-top: .5em;
+}
+
 /* INICIA BOTON INSTAGRAM */
 .instagram{
-    color: #8C30F5;
+    color:white;
     border: 0;
    /*  background-image:linear-gradient(to right, #833AB4,#FD1D1D,#FCB045); */
      background-color: #D6B1FF;
@@ -145,16 +150,16 @@ a.dropdown-item:hover {
     transition:  0.2s ease-in;
 }
 .instagram:hover{
-    background-image:linear-gradient(to right, #833AB4,#FD1D1D,#FCB045);
-    opacity: .8;
-    color: white;
+     background-color: #F1E4FF;
+   /*  opacity: .8; */
+    color: #8C30F5;
 }
 
 
 
 /* TERMINA BOTON INSTAGRAM */
 .facebook{
-    color: #8C30F5;
+    color:white;
     border: 0;
     /* background-image:linear-gradient(to right,#1877f2,#1877f2 ); */
     background-color: #D6B1FF;
@@ -165,12 +170,12 @@ a.dropdown-item:hover {
 
 }
 .facebook:hover{
-    background-image:linear-gradient(to right,#1877f2,#1877f2 );
-    opacity: .8;
-    color: white;
+    background-color: #FFC3D8;
+   /*  opacity: .8; */
+   color: #8C30F5;
 }
 .tiktok{
-    color: #8C30F5;
+    color:white;
     border: 0;
    /*  background-image: linear-gradient(to right,#25F4EE,#000000,#FE2C55); */
    background-color: #D6B1FF;
@@ -180,12 +185,12 @@ a.dropdown-item:hover {
     transition:  0.2s ease-in;
 }
 .tiktok:hover{
-    background-image: linear-gradient(to right,#25F4EE,#000000,#FE2C55);
-    opacity: .8;
-    color: white;
+    background-color: #FFC3D8;
+   /*  opacity: .8; */
+   color: #8C30F5;
 }
 .whatsapp{
-    color: #8C30F5;
+    color: white;
     border: 0;
     /* background-image:linear-gradient(to right,#00BB2D ,#00BB2D) ; */
     background-color: #D6B1FF;
@@ -195,12 +200,12 @@ a.dropdown-item:hover {
     transition:  0.2s ease-in;
 }
 .whatsapp:hover{
-    background-image:linear-gradient(to right,#00BB2D ,#00BB2D) ;
-    opacity: .8;
-    color: white;
+    background-color: #FFC3D8;
+    /* opacity: .8; */
+    color: #8C30F5;
 }
 .correo{
-    color: #8C30F5;
+    color:white;
     border: 0;
     /* background-image:linear-gradient(to right,#EA4335 ,#EA4335) ; */
     background-color: #D6B1FF;
@@ -210,13 +215,13 @@ a.dropdown-item:hover {
     transition:  0.2s ease-in;
 }
 .correo:hover{
-    background-image:linear-gradient(to right,#EA4335 ,#EA4335) ;
-    opacity: .8;
-    color: white;
+    background-color: #FFC3D8;
+   /*  opacity: .8; */
+   color: #8C30F5;
 }
 /* INICIA BOTON DE UBICACION */
 .ubicacion{
-    color: #8C30F5;
+    color: white;
     border: 0;
     /* background-image:linear-gradient(to right,#419EF8 ,#419EF8) ; */
     background-color: #D6B1FF;
@@ -226,9 +231,9 @@ a.dropdown-item:hover {
     transition:  0.2s ease-in;
 }
 .ubicacion:hover{
-    background-image:linear-gradient(to right,#419EF8 ,#419EF8);
-    opacity: .8;
-    color: white;
+    background-color: #FFC3D8;
+    /* opacity: .8; */
+    color: #8C30F5;
 }
 
 
