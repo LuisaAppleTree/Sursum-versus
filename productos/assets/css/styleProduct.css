@@ -114,8 +114,16 @@ margin-bottom: 5vh;
 }
 
 
+.radio-img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px ;
+}
 
-
+.radio{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius:10px
+}
+/* poner en css footer */
 /* xarrito */
 .modal-contenedor{
     display:flex;
@@ -128,6 +136,7 @@ margin-bottom: 5vh;
 } 
 .modal-content{
     background-color:rgb(254,182,233);
+  /*   background-color: #F1E4FF; */
 }
 
 #precioTotal{
@@ -153,7 +162,17 @@ a{
 .text-carrito{
     color: blueviolet;
 }
-.radio{
-    border-radius: 10px;
-}
 
+
+.bicolor{
+    
+    color:rgb(141, 52,245 );
+}
+.btn-color-carrito{
+background-color: #D5FAFC;
+color: black;
+/*  background-color:rgb(254,182,233); */
+}
+.btn-color-carrito:hover{
+background-color: #fcd5fa;
+}

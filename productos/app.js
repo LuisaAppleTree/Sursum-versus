@@ -2,57 +2,57 @@ const stockProductos = [
     {
       id: 1,
       nombre: "Acido Glicolico",
-      cantidad: 1,
       desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum est quis exercitationem quidem similique possimus.",
       precio: 1234,
+      cantidad:1,
       img: "assets/img/product4.jpg",
     },
     {
       id: 2,
       nombre: "Cannabacea",
-      cantidad: 1,
       desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum est quis exercitationem quidem similique possimus",
       precio: 1234,
+      cantidad:1,
       img: "assets/img/product2.jpg",
     },
     {
       id: 3,
       nombre: "Black Alium Kit",
-      cantidad: 1,
       desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum est quis exercitationem quidem similique possimus",
       precio: 1570,
+      cantidad:1,
       img: "assets/img/product3.jpg",
     },
     {
       id: 4,
       nombre: "Neyss Oxígeno Activado",
-      cantidad: 1,
       desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum est quis exercitationem quidem similique possimus",
       precio: 1234,
+      cantidad:1,
       img: "assets/img/product1.jpg",
     },
     {
       id: 5,
       nombre: "Astringente Black Allium",
-      cantidad: 1,
       desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum est quis exercitationem quidem similique possimus",
       precio: 1234,
+      cantidad:1,
       img: "assets/img/product5.jpg",
     },
     {
       id: 6,
       nombre: "Gel Cosmedic",
-      cantidad: 1,
       desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum est quis exercitationem quidem similique possimus",
       precio: 1234,
+      cantidad:1,
       img: "assets/img/product6.jpg",
     },
     {
       id: 7,
       nombre: "Polvo Astringente",
-      cantidad: 1,
       desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum est quis exercitationem quidem similique possimuse",
       precio: 1234,
+      cantidad:1,
       img: "assets/img/product7.jpg",
     },
     {
@@ -61,6 +61,7 @@ const stockProductos = [
       cantidad: 1,
       desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum est quis exercitationem quidem similique possimus",
       precio: 1234,
+      cantidad:1,
       img: "assets/img/product8.jpg",
     }
   ]
@@ -70,7 +71,7 @@ const stockProductos = [
   const carritoContenedor = document.querySelector("#carritoContenedor");//se muestre en el carrito
   const vaciarCarrito = document.querySelector("#vaciarCarrito");
   const precioTotal = document.querySelector("#precioTotal");
-  const procesarCompra = document.querySelector("#procesarCompra");
+  
  
   
   
@@ -89,12 +90,12 @@ const stockProductos = [
       contenedor.innerHTML += `
        <div class="col-xs-3 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 ">
        <br><br>
-      <img class="card-img-top mt-2 radio" src="${img}" alt="Card image cap">
+      <img class="card-img-top mt-2 radio-img" src="${img}" alt="Card image cap">
       <div class="card-body color-trj  radio">
         <h5 class="card-title h5card">${nombre}</h5>
         <p class="card-text">Precio: ${precio}</p>
         <p class="card-text">Descripcion: ${desc}</p>
-        <p class="card-text">Cantidad: ${cantidad}</p>
+       
         <button class="btn btn-card produc-btn" onclick="agregarProducto(${id})">Comprar Producto</button>
       </div>
     </div>
@@ -135,7 +136,7 @@ const stockProductos = [
           <p>Producto: ${nombre}</p>
         <p>Precio: ${precio}</p>
         <p>Cantidad :${cantidad}</p>
-        <button class="btn btn-danger"  onclick="eliminarProducto(${id})">Eliminar producto</button>
+        <button class="btn btn-color-carrito"  onclick="eliminarProducto(${id})">Eliminar producto</button>
           </div>
         </div>
         
@@ -164,8 +165,8 @@ const stockProductos = [
   }
   
   function eliminarProducto(id) {
-    const productosId = id;
-    carrito = carrito.filter((productos) => productosId  !== productosId );
+    const juegoId = id;
+    carrito = carrito.filter((juego) => juego.id !== juegoId);
     mostrarCarrito();
   }
   
