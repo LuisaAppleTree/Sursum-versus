@@ -58,10 +58,13 @@ a.dropdown-item:hover {
 }
 .formulario__input{
     width: 100%;
-    background:white ;
+    background-color:#fff;
+    border: 3px solid transparent;
     border-radius: 3px;
-    height: 45px;
+    height:45px;
     line-height: 45px;
+    transition: .3s ease all;
+    
 }
 .formulario__input:focus {
     border: 3px solid rgb(140, 48, 255);
