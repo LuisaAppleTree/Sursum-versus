@@ -71,9 +71,15 @@ const stockProductos = [
   const carritoContenedor = document.querySelector("#carritoContenedor");//se muestre en el carrito
   const vaciarCarrito = document.querySelector("#vaciarCarrito");
   const precioTotal = document.querySelector("#precioTotal");
-  
+  const procesarCompra = document.querySelector("#procesarCompra");
  
   
+  if (procesarCompra) {
+    procesarCompra.addEventListener("click", () => {
+        location.href = "compra.html";
+      })
+    
+  }
   
   
   //vaciar carrito
@@ -170,3 +176,12 @@ const stockProductos = [
     mostrarCarrito();
   }
   
+  if (procesarCompra) {
+    procesarCompra.addEventListener("click", () => {
+      if (carrito.length === 0) {
+        alert("Agrega algo al carrito");
+      } else {
+        location.href = "/carrito/carrito.html";
+      }
+    });
+  }
