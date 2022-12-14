@@ -16,7 +16,6 @@ const campos = {
     nombre: false,
     apellido: false,
     email: false,
-    domicilio:false,
     password:false
 }
 
@@ -30,9 +29,6 @@ const validarFormulario = (e) => {
         break;
         case "email":
             validarCampo(expresiones.email, e.target, "email");
-        break;
-        case "domicilio":
-            validarCampo(expresiones.domicilio, e.target, "domicilio");
         break;
         case "password":
             validarCampo(expresiones.password, e.target, "password");
@@ -94,7 +90,7 @@ formulario.addEventListener('submit', (e) => {
     
 	e.preventDefault();
 
-	if(campos.nombre && campos.apellido && campos.email && campos.domicilio && campos.password){
+	if(campos.nombre && campos.apellido && campos.email && campos.password){
         
 		document.getElementById('formulario__mensaje-win').classList.add('formulario__mensaje-win-activo');
 		setTimeout(() => {
