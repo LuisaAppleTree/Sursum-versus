@@ -23,7 +23,9 @@ public class ProductosModel {
 	private Integer existencia;
 	
 	/***RELACIONES***/
-
+//	@ManyToOne
+//	private DetalleOrdenModel detalleOr;
+	
 	/******/
 	
 	public ProductosModel() {
@@ -67,6 +69,12 @@ public class ProductosModel {
 	public void setExistencia(Integer existencia) {
 		this.existencia = existencia;
 	}
+
+
+
+	
+
+	
 
 	
 		

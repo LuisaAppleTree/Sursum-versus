@@ -1,11 +1,14 @@
 package com.dermaspa.models;
 
+import java.util.ArrayList;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.ManyToOne;
+import jakarta.persistence.OneToMany;
 import jakarta.persistence.OneToOne;
 import jakarta.persistence.Table;
 
@@ -23,11 +26,15 @@ public class DetalleOrdenModel {
     private Integer totalCompra;
     
     /***RELACIONES***/
+//   @OneToMany(mappedBy = "detalleOrden") 
+//   private ArrayList<ProductosModel> productos;
+    
     @OneToOne
     private OrdenModel orden;
-
-    @ManyToOne
-    private ProductosModel productos;
+    
+    @OneToOne
+    private DetallePagoModel detallepa;
+    
     /******/
 
     public DetalleOrdenModel() {
@@ -37,7 +44,6 @@ public class DetalleOrdenModel {
         this.id = id;
         this.cantidadProductos = cantidadProductos;
         this.totalCompra = totalCompra;
-        this.orden = orden;
     }
 
     public Long getId() {
@@ -64,21 +70,24 @@ public class DetalleOrdenModel {
         this.totalCompra = totalCompra;
     }
 
-    public OrdenModel getOrden() {
-        return orden;
-    }
+	public OrdenModel getOrden() {
+		return orden;
+	}
 
-    public void setOrden(OrdenModel orden) {
-        this.orden = orden;
-    }
+	public void setOrden(OrdenModel orden) {
+		this.orden = orden;
+	}
 
-    public ProductosModel getProductos() {
-        return productos;
-    }
+	public DetallePagoModel getDetallepa() {
+		return detallepa;
+	}
 
-    public void setProductos(ProductosModel productos) {
-        this.productos = productos;
-    }
+	public void setDetallepa(DetallePagoModel detallepa) {
+		this.detallepa = detallepa;
+	}
+
+
+   
 
     
     

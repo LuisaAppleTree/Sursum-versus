@@ -26,7 +26,8 @@ public class UsuarioFormModel {
 	private String contraseña;
 	
 	/***RELACIONES***/
-	
+	@OneToMany(mappedBy = "usuario")
+    private ArrayList<OrdenModel> ordenes;
 	
 	/******/
 	
@@ -79,6 +80,14 @@ public class UsuarioFormModel {
 
 	public void setContraseña(String contraseña) {
 		this.contraseña = contraseña;
+	}
+
+	public ArrayList<OrdenModel> getOrdenes() {
+		return ordenes;
+	}
+
+	public void setOrdenes(ArrayList<OrdenModel> ordenes) {
+		this.ordenes = ordenes;
 	}
 
 

@@ -21,7 +21,11 @@ public class OrdenModel {
 	private String fecha;
 	
 	/***RELACIONES***/
+	@ManyToOne
+	private UsuarioFormModel usuario;
 	
+	@ManyToOne
+	private DireccionModel direccion;
 	/******/
 
 	public OrdenModel() {
@@ -46,6 +50,22 @@ public class OrdenModel {
 
 	public void setFecha(String fecha) {
 		this.fecha = fecha;
+	}
+
+	public UsuarioFormModel getUsuario() {
+		return usuario;
+	}
+
+	public void setUsuario(UsuarioFormModel usuario) {
+		this.usuario = usuario;
+	}
+
+	public DireccionModel getDireccion() {
+		return direccion;
+	}
+
+	public void setDireccion(DireccionModel direccion) {
+		this.direccion = direccion;
 	}
 
 	
