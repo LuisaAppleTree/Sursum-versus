@@ -62,7 +62,108 @@
 <!-- Fin de la barra navegacion  -->
 
     <!-- INICIO DE CUADRO -->
-    <section margen>
+    <div class="container">
+      <div class="row">
+          <div class="col">               
+              <div class="shadow-lg p-3 mb-5 mt-4 bg-body rounded" >                                    
+                  <div class=" p-3 mb-2 bg-primary bg-gradient fw-bold text-white ">DATOS DE COMPRA</div>
+                  <form class="row g-3 needs-validation " novalidate>
+                      <div class="col-md-4 position-relative ">
+                          <label for="nombre" class="form-label">Ciudad</label>
+                          <input type="text" class="form-control" id="nombre" value="Ciudad de Mexico" required>
+                          <!-- Mensajes para validación   -->
+                          <div class="valid-tooltip">¡Campo válido!</div>
+                          <div class="invalid-tooltip">Debe completar los datos.</div>
+                      </div>
+                      <div class="col-md-4 position-relative">
+                          <label for="apellido" class="form-label">Codigo Postal</label>
+                          <input type="number" class="form-control" id="apellido" value="8996" required>
+                          <!-- Mensajes para validación   -->
+                          <div class="valid-tooltip">¡Campo válido!</div>
+                          <div class="invalid-tooltip">Debe completar los datos.</div>
+                      </div>   
+                      <div class="col-md-4 position-relative">
+                        <label for="nombre" class="form-label">Colonia</label>
+                        <input type="text" class="form-control" id="nombre" value="San pablo" required>
+                        <!-- Mensajes para validación   -->
+                        <div class="valid-tooltip">¡Campo válido!</div>
+                        <div class="invalid-tooltip">Debe completar los datos.</div>
+                    </div>
+                      
+                      <!-- eeee -->
+                      <div class="col-md-4 position-relative">
+                        <label for="nombre" class="form-label">Calle</label>
+                        <input type="text" class="form-control" id="nombre" value="Calle san juan" required>
+                        <!-- Mensajes para validación   -->
+                        <div class="valid-tooltip">¡Campo válido!</div>
+                        <div class="invalid-tooltip">Debe completar los datos.</div>
+                    </div>
+                    <div class="col-md-4 position-relative">
+                        <label for="apellido" class="form-label">Numero</label>
+                        <input type="text" class="form-control" id="apellido" value="MZ 7 LT 56" required>
+                        <!-- Mensajes para validación   -->
+                        <div class="valid-tooltip">¡Campo válido!</div>
+                        <div class="invalid-tooltip">Debe completar los datos.</div>
+                    </div>  
+                    <div class="form-check">
+                      <input onclick="ocultarTarjeta();" class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                      <label class="form-check-label" for="flexRadioDefault1">
+                        Pago en efectivo
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input onclick="mostrarTarjeta();" class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                      <label class="form-check-label" for="flexRadioDefault2">
+                        Pago con tarjeta
+                      </label>
+                    </div>
+                      <!-- tttt -->
+
+                      <!-- sssss -->
+                      <div id="Tarjeta">
+                      <div class="col-md-4 position-relative" >
+                        <label for="nombre" class="form-label">Numero de tarjeta</label>
+                        <input type="text" class="form-control" id="nombre" value="4565434567" required>
+                        <!-- Mensajes para validación   -->
+                        <div class="valid-tooltip">¡Campo válido!</div>
+                        <div class="invalid-tooltip">Debe completar los datos.</div>
+                    </div>
+                    <div class="col-md-4 position-relative" >
+                        <label for="apellido" class="form-label">Titular de tarjeta</label>
+                        <input type="text" class="form-control" id="apellido" value="Juan Martinez" required>
+                        <!-- Mensajes para validación   -->
+                        <div class="valid-tooltip">¡Campo válido!</div>
+                        <div class="invalid-tooltip">Debe completar los datos.</div>
+                    </div>   
+                    
+                    <!-- eeee -->
+                    <div class="col-md-4 position-relative" >
+                      <label for="nombre" class="form-label">cvv</label>
+                      <input type="text" class="form-control" id="nombre" value="3456" required>
+                      <!-- Mensajes para validación   -->
+                      <div class="valid-tooltip">¡Campo válido!</div>
+                      <div class="invalid-tooltip">Debe completar los datos.</div>
+                  </div>
+                  <div class="col-md-4 position-relative" >
+                      <label for="apellido" class="form-label">Fecha</label>
+                      <input type="text" class="form-control" id="apellido" value="22-2022" required>
+                      <!-- Mensajes para validación   -->
+                      <div class="valid-tooltip">¡Campo válido!</div>
+                      <div class="invalid-tooltip">Debe completar los datos.</div>
+                  </div>
+                </div>  
+                      <!-- ssss -->
+                             
+                      <div class="col-12">
+                      <button class="btn btn-warning fw-bold float-end" type="submit">Enviar</button>
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </div>
+
+    <!-- <section margen>
 
     <div class="container-fluid  text-center    ">
         <div class="row  ">
@@ -71,8 +172,21 @@
           </div>
           <div class="col-lg-6 col-sm-8  ">
 
-            <div class="card  seccion1 rounded-5 altura   " >
-              <div class="row g-0 S align-items-center justify-content-center">
+            <div class="card  seccion1 rounded-5 altura  align-items-center   " >
+             
+                <div class="col-md-4 ">
+                  <label for="validationCustom01" class="form-label">Escribe tu nombre completo</label>
+                  <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                </div>
+                <hr>
+                <div class="col-12">
+                  <button class="btn btn-primary" type="submit">ver mas detalles</button>
+                </div>
+                 -->
+              <!-- <div class="row g-0 S align-items-center justify-content-center">
                 <div class="col-md-4 pading ">
                   <img src="/carrito/assets/img/verde.png" style="height:100% ;" class="img-fluid  rounded-5" alt="...">
                 </div>
@@ -87,9 +201,9 @@
                         <input type="number" class="form-control tamalito  " id="validationDefault01" value="Mark" required>
                         <button class="btn btn-primary " type="submit " onclick="mostrar_inputs()">Comprar</button>
                        
-                      </div>
-                </div>
-              </div>
+                      </div> -->
+                <!-- </div>
+              </div> -->
             </div>
 
           
