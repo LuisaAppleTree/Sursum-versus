@@ -6,7 +6,6 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.ManyToOne;
-import jakarta.persistence.OneToMany;
 import jakarta.persistence.OneToOne;
 import jakarta.persistence.Table;
 
@@ -26,8 +25,7 @@ public class DetalleOrdenModel {
 	/***RELACIONES***/
 	@OneToOne
 	private OrdenModel orden;
-	@OneToOne
-	private DetallePagoModel detallePa;
+
 	@ManyToOne
 	private ProductosModel productos;
 	/******/
@@ -72,14 +70,6 @@ public class DetalleOrdenModel {
 
 	public void setOrden(OrdenModel orden) {
 		this.orden = orden;
-	}
-
-	public DetallePagoModel getDetallePa() {
-		return detallePa;
-	}
-
-	public void setDetallePa(DetallePagoModel detallePa) {
-		this.detallePa = detallePa;
 	}
 
 	public ProductosModel getProductos() {
