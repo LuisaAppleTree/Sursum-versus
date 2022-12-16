@@ -1,4 +1,4 @@
-package com.dermaSpa.models;
+package com.dermaspa.models;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
