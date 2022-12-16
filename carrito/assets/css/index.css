@@ -19,7 +19,18 @@ body{
     color: #7021ca;
 }
 
+
 /* Inicio Estilos barra de navegacion */
+.colorFondo{
+    background-color: #d8fcfc;
+    color: #191217;
+}
+.enviar{
+    background-color: #D6B1FF;
+}
+.enviar:hover{
+    background-color: #F22BB2;
+}
 .fondo {
     background-color: #D5FAFC;
 }
