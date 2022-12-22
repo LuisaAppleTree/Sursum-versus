@@ -178,10 +178,13 @@ const stockProductos = [
   
   if (procesarCompra) {
     procesarCompra.addEventListener("click", () => {
-      if (carrito.length === 0) {
-        alert("Agrega algo al carrito");
+      if (carrito.length == 0) {
+        alert("Agrega algo al carrito")
+        location.href = "productos.html";
       } else {
-        location.href = "/carrito/carrito.html";
+        location.href = "carrito.html";
       }
     });
   }
+
+  
