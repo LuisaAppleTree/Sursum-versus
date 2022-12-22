@@ -5,7 +5,7 @@ const stockProductos = [
       desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum est quis exercitationem quidem similique possimus.",
       precio: 1234,
       cantidad:1,
-      img: "assets/img/product4.jpg",
+      img: "assets/img/productosImg/product4.jpg",
     },
     {
       id: 2,
@@ -13,7 +13,7 @@ const stockProductos = [
       desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum est quis exercitationem quidem similique possimus",
       precio: 1234,
       cantidad:1,
-      img: "assets/img/product2.jpg",
+      img: "assets/img/productosImg/product2.jpg",
     },
     {
       id: 3,
@@ -21,7 +21,7 @@ const stockProductos = [
       desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum est quis exercitationem quidem similique possimus",
       precio: 1570,
       cantidad:1,
-      img: "assets/img/product3.jpg",
+      img: "assets/img/productosImg/product3.jpg",
     },
     {
       id: 4,
@@ -29,7 +29,7 @@ const stockProductos = [
       desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum est quis exercitationem quidem similique possimus",
       precio: 1234,
       cantidad:1,
-      img: "assets/img/product1.jpg",
+      img: "assets/img/productosImg/product1.jpg",
     },
     {
       id: 5,
@@ -37,7 +37,7 @@ const stockProductos = [
       desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum est quis exercitationem quidem similique possimus",
       precio: 1234,
       cantidad:1,
-      img: "assets/img/product5.jpg",
+      img: "assets/img/productosImg/product5.jpg",
     },
     {
       id: 6,
@@ -45,7 +45,7 @@ const stockProductos = [
       desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum est quis exercitationem quidem similique possimus",
       precio: 1234,
       cantidad:1,
-      img: "assets/img/product6.jpg",
+      img: "assets/img/productosImg/product6.jpg",
     },
     {
       id: 7,
@@ -53,7 +53,7 @@ const stockProductos = [
       desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum est quis exercitationem quidem similique possimuse",
       precio: 1234,
       cantidad:1,
-      img: "assets/img/product7.jpg",
+      img: "assets/img/productosImg/product7.jpg",
     },
     {
       id: 8,
@@ -62,7 +62,7 @@ const stockProductos = [
       desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum est quis exercitationem quidem similique possimus",
       precio: 1234,
       cantidad:1,
-      img: "assets/img/product8.jpg",
+      img: "assets/img/productosImg/product8.jpg",
     }
   ]
   let carrito = [];
