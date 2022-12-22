@@ -104,7 +104,7 @@ a.dropdown-item:hover {
     font-size: 1.7em;
     text-align: center;
     font-weight: 700;
-    background-color: #FFC3D8;
+    background-color: #FFB1E6;
     margin-top: 2vh;
     margin-bottom: 2vh;
     height: 8vh;
@@ -113,6 +113,7 @@ a.dropdown-item:hover {
 .contactanos{
     padding-top: 1vh;
     padding-bottom: 1vh;
+    font-weight: 200;
 }
 .logonombre{
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
@@ -141,17 +142,17 @@ a div{
 
 /* INICIA BOTON INSTAGRAM */
 .instagram{
-    color:white;
+    color:#8C30F5;
     border: 0;
    /*  background-image:linear-gradient(to right, #833AB4,#FD1D1D,#FCB045); */
-     background-color: #D6B1FF;
+     background-color: #D5FAFC;
     height:56px;
     margin-top: 10px;
     margin-bottom: 10px;
     transition:  0.2s ease-in;
 }
 .instagram:hover{
-    background-color: #FFC3D8;
+    background-color: #FF72D2;
    /*  opacity: .8; */
     color: #8C30F5;
 }
@@ -160,10 +161,10 @@ a div{
 
 /* TERMINA BOTON INSTAGRAM */
 .facebook{
-    color:white;
+    color:#8C30F5;
     border: 0;
     /* background-image:linear-gradient(to right,#1877f2,#1877f2 ); */
-    background-color: #D6B1FF;
+    background-color: #D5FAFC;
     height:56px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -171,68 +172,68 @@ a div{
 
 }
 .facebook:hover{
-    background-color: #FFC3D8;
+    background-color: #FF72D2;
    /*  opacity: .8; */
    color: #8C30F5;
 }
 .tiktok{
-    color:white;
+    color:#8C30F5;
     border: 0;
    /*  background-image: linear-gradient(to right,#25F4EE,#000000,#FE2C55); */
-   background-color: #D6B1FF;
+   background-color: #D5FAFC;
     height:56px;
     margin-top: 10px;
     margin-bottom: 10px;
     transition:  0.2s ease-in;
 }
 .tiktok:hover{
-    background-color: #dfc5fd;
+    background-color: #FF72D2;
    /*  opacity: .8; */
    color: #8C30F5;
 }
 .whatsapp{
-    color: white;
+    color: #8C30F5;
     border: 0;
     /* background-image:linear-gradient(to right,#00BB2D ,#00BB2D) ; */
-    background-color: #D6B1FF;
+    background-color: #D5FAFC;
     height:56px;
     margin-top: 10px;
     margin-bottom: 10px;
     transition:  0.2s ease-in;
 }
 .whatsapp:hover{
-    background-color: #FFC3D8;
+    background-color: #FF72D2;
     /* opacity: .8; */
     color: #8C30F5;
 }
 .correo{
-    color:white;
+    color:#8C30F5;
     border: 0;
     /* background-image:linear-gradient(to right,#EA4335 ,#EA4335) ; */
-    background-color: #D6B1FF;
+    background-color: #D5FAFC;
     height:56px;
     margin-top: 10px;
     margin-bottom: 10px;
     transition:  0.2s ease-in;
 }
 .correo:hover{
-    background-color: #FFC3D8;
+    background-color: #FF72D2;
    /*  opacity: .8; */
    color: #8C30F5;
 }
 /* INICIA BOTON DE UBICACION */
 .ubicacion{
-    color: white;
+    color: #8C30F5;
     border: 0;
     /* background-image:linear-gradient(to right,#419EF8 ,#419EF8) ; */
-    background-color: #D6B1FF;
+    background-color: #D5FAFC;
     height:56px;
     margin-top: 10px;
     margin-bottom: 10px;
     transition:  0.2s ease-in;
 }
 .ubicacion:hover{
-    background-color: #FFC3D8;
+    background-color: #FF72D2;
     /* opacity: .8; */
     color: #8C30F5;
 }

@@ -1,7 +1,7 @@
 const stockProductos = [
     {
       id: 1,
-      nombre: "Acido Glicolico",
+      nombre: "Acido Glicólico",
       desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum est quis exercitationem quidem similique possimus.",
       precio: 1234,
       cantidad:1,
